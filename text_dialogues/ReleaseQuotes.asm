@@ -33,7 +33,7 @@ dialogueBucksReleaseQuote
 .byte NewLine
 .text "Intão acho que eu vô virar pescador."
 .byte NewLine
-.text "Até mais, Guerreiros Livres."
+.text "Até mais, Guerreiros de Fiana."
 .byte WaitForA
 .byte EndText
 
@@ -389,7 +389,7 @@ dialogueChapter19WolfeReleaseQuote
 dialogueBharatReleaseQuote
 .text "Só me mata de uma vez!"
 .byte NewLine
-.text "Eu não tenho pra onde ir!"
+.text "Eu não tenho mais para onde ir!"
 .byte WaitForA
 .byte EndText
 

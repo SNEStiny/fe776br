@@ -2,12 +2,12 @@ dialogueChapter05LeifRetreatQuote
 .byte Right_Slot
 .word LoadPortrait
 .word leif_portrait2
-.text "I'll come back for you, Commander!"
+.text "Eyvel... eu vou voltar!"
 .byte WaitForA
 .byte ScrollText
-.text "I'll... I'll grow strong enough to storm"
+.text "Um dia... eu vou ser forte o suficiente"
 .byte NewLine
-.text "this whole city if I have to! No force"
+.text "pra volta"
 .byte NewLine
 .text "in all the heavens can stop me! So just... Just..."
 .byte WaitForA

@@ -69,14 +69,14 @@ dialogueChapter01Opening1
 	.byte ScrollText
 	.text "Dizem eles que ele saiu com os"
 	.byte NewLine
-	.text "Guerreiros Livres para socorrer uma"
+	.text "Guerreiros de Fiana para socorrer uma"
 	.byte NewLine
 	.text "vila perto daqui de um ataque de piratas."
 	.byte WaitForA
 	
 	.byte Left_Slot
 	.byte ScrollText
-	.text 'E quem são esses "Guerreiros Livres"?'
+	.text 'E quem são esses "Guerreiros"?'
 	.byte WaitForA
 	
 	.byte Right_Slot
@@ -99,7 +99,7 @@ dialogueChapter01Opening1
 	.byte ScrollText
 	.text "Ela então assumiu a vila e fundou os"
 	.byte NewLine
-	.text "Guerreiros Livres para proteger a região"
+	.text "Guerreiros de Fiana para proteger a região"
 	.byte NewLine
 	.text "de possíveis outros ataques."
 	.byte WaitForA
@@ -505,7 +505,7 @@ dialogueChapter01Opening4
 	.byte NewLine
 	.text "Agora vamos mostrar ao Império quem somos nós,"
 	.byte NewLine
-	.text "os Guerreiros Livres de Fiana!"
+	.text "os Guerreiros de Fiana!"
 	.byte WaitForA
 	
 	.byte EndText
@@ -682,7 +682,7 @@ dialogueChapter01VulneraryHouse
 	.text "Ocês chegaram! Até que enfim..."
 	.byte WaitForA
 	.byte ScrollText
-	.text "Mas ó, sem Fiana, num teria Guerreiros Livres,"
+	.text "Mas ó, sem Fiana, num teria os Guerreiros de Fiana,"
 	.byte NewLine
 	.text "né? Então num matem só piratas! Tem que botar"
 	.byte NewLine
@@ -1056,7 +1056,7 @@ dialogueChapter01WorldMap5
 	
 	.text "A vila possui uma pequena mílicia:"
 	.byte NewLine
-	.text "Os Guerreiros Livres de Fiana,"
+	.text "Os Guerreiros de Fiana,"
 	.byte WaitForA
 	.byte NewLine
 	.text "liderados pela espadachim Eyvel."
