@@ -13,9 +13,9 @@ dialogueChapter03WorldMap1
 
 dialogueChapter03WorldMap2
 
-.text "Não demorou muito até ele chegar na"
+.text "Pouco tempo depois, ele chega na"
 .byte NewLine
-.text "porta de Kérbero, "
+.text "Porta de Kérbero, "
 .byte WaitForA
 .text "um pequeno forte que protege"
 .byte NewLine
@@ -101,7 +101,7 @@ dialogueChapter03Opening1
 .text "cansativa, então eu prefiro descansar aqui."
 .byte WaitForA
 .byte ScrollText
-.text "E haverá lugar melhor para descansar"
+.text "E haverá lugar melhor para isso"
 .byte NewLine
 .text "do que a impregnável Porta de Kérbero, Lobos?"
 .byte WaitForA
@@ -110,7 +110,7 @@ dialogueChapter03Opening1
 .byte ScrollText
 .text "Hah! Não precisa se preocupar, senhor."
 .byte NewLine
-.text "Pode dormir tranquilo."
+.text "Pode ficar tranquilo."
 .byte WaitForA
 
 .byte EndText
@@ -154,7 +154,7 @@ dialogueChapter03Opening2
 .text "Agora, eles estão aqui para caçar crianças."
 .byte WaitForA
 .byte ScrollText
-.text "Aquele forte se tornou algo como um"
+.text "Aquele forte se tornou na prática um"
 .byte NewLine
 .text "depósito de crianças que são raptadas"
 .byte NewLine
@@ -236,7 +236,7 @@ dialogueChapter03Opening2
 .byte NewLine
 .text "continuar acontecendo;"
 .byte NewLine
-.text "eu irei livrar as crianças desse destino cruel."
+.text "eu vou livrar as crianças desse destino cruel."
 .byte WaitForA
 
 .byte Left_Slot
@@ -250,9 +250,9 @@ dialogueChapter03Opening2
 .byte ScrollText
 .text "Dentro do forte não há espaço para os cavalos,"
 .byte NewLine
-.text "então diga à seus cavaleiros que eles terão que"
+.text "então diga à seu cavaleiro que ele terá que"
 .byte NewLine
-.text "[Desmontar] de seus cavalos antes de entrar."
+.text "[Desmontar] de seu cavalo antes de entrar."
 .byte WaitForA
 .byte ScrollText
 .text "Ademais, depois do que elas presenciaram,"
@@ -367,7 +367,7 @@ dialogueChapter03Ending1
 .byte Left_Slot
 .text "Certo... tudo bem!"
 .byte NewLine
-.text "Aqui, abaixei as armas, agora"
+.text "Pronto, abaixei as armas, agora"
 .byte NewLine
 .text "tire suas mãos dela!"
 .byte WaitForA
@@ -498,14 +498,14 @@ dialogueChapter03CairpreHouseCairpre
 .word LoadPortrait
 .word bishop_portrait
 
-.text "Mestre Cairpre! Graças aos deuses você está bem!"
+.text "Mestre Cairpre! Graças aos deuses tu estás bem!"
 .byte NewLine
 .text "Eu estava morrendo de preocupação..."
 .byte WaitForA
 .byte ScrollText
 .text "Veja, o jovem é o filho de um nobre,"
 .byte NewLine
-.text "ele veio aqui trazer uma mensagem dele,"
+.text "ele veio aqui para trazer uma mensagem,"
 .byte WaitForA
 .byte ScrollText
 .text "mas ele foi confundido com uma criança daqui"
@@ -515,12 +515,12 @@ dialogueChapter03CairpreHouseCairpre
 .byte ScrollText
 .text "Eu lhe agradeço do fundo do meu coração,"
 .byte NewLine
-.text "eu sinto muito não poder lhe recompensar agora..."
+.text "e sinto muito não poder lhe recompensar agora..."
 .byte WaitForA
 .byte ScrollText
 .text "Mas, eu não tenho dúvida de que algum dia"
 .byte NewLine
-.text "tu serás recompensado por esta boa ação."
+.text "serás recompensado por esta boa ação."
 .byte WaitForA
 
 .byte EndText
@@ -546,7 +546,7 @@ dialogueChapter03LucciaHouseLuccia
 
 .text "Lúcia! Ah, minha garota, sã e salva!"
 .byte NewLine
-.text "Eu pensei que eu ia morrer de preocupação!"
+.text "Mais um pouco e eu ia morrer de nervoso!"
 .byte WaitForA
 .byte ScrollText
 .text "Eu sou eternamente grata a ocê, estranho,"
@@ -638,9 +638,9 @@ dialogueChapter03JubelHouseOther
 .byte ScrollText
 .text "Por favor, estranho! Ele é só um"
 .byte NewLine
-.text "garotinho, e vocês podem dar uma surra"
+.text "garotinho, e só vocês são capazes"
 .byte NewLine
-.text "nesses imperiais se quiserem!"
+.text "de dar uma surra nesses imperiais!"
 .byte WaitForA
 
 .byte EndText
@@ -658,14 +658,12 @@ dialogueChapter03RomeoHouseRomeo
 .text "Eu agradeço ocês do fundo do meu coração."
 .byte WaitForA
 .byte ScrollText
-.text "Pra recompensar ocês, por favor, levem"
-.byte NewLine
-.text "isso aqui."
+.text "Por favor, levem isso aqui co' ocês."
 .byte WaitForA
 .byte ScrollText
-.text "Esse anel aqui foi da minha mãe, que foi"
+.text "Esse anel foi da minha mãe, que foi"
 .byte NewLine
-.text "da mãe dela, e assim por diante."
+.text "da mãe dela, e daí por diante."
 .byte NewLine
 .text "Ele é encantado, ocês vão ver."
 .byte WaitForA

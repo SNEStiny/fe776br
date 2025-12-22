@@ -807,7 +807,7 @@ dialogueChapter08Chapter08xLeifDagdar
 .text "Se eu fosse mais forte... se eu tivesse"
 .byte NewLine
 .text "feito as coisas de um jeito diferente,"
-.bye NewLine
+.byte NewLine
 .text "quem sabe—"
 .byte WaitForA
 

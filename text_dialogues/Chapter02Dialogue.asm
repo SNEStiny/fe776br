@@ -25,7 +25,7 @@ dialogueChapter02Opening1
 .byte Left_Slot
 .text "Cala a boca aí, ô espertão."
 .byte NewLine
-.text "Cada um que fique com o seu trabalho."
+.text "Cada um que fique com o seu quinhão."
 .byte WaitForA
 .byte ScrollText
 .text "Eu nunca me meti nos seus plano, e"
@@ -80,9 +80,12 @@ dialogueChapter02Opening1
 .byte ScrollText
 .text "O chefe fala que foi ocê que ensinou ele"
 .byte NewLine
-.text "a fazer um interrogatório! Amigo, tem um"
+.text "como fazer um bom interrogatório!"
+.byte WaitForA
+.byte ScrollText
+.text "Amigo, tem um bom motivo procê"
 .byte NewLine
-.text "bom motivo procê ter sido expulso da Igreja."
+.text "ter sido expulso da Igreja."
 .byte WaitForA
 
 .byte ScrollText
@@ -93,15 +96,15 @@ dialogueChapter02Opening1
 .byte ScrollText
 .text "Maldito Lifis... ele é um problema agora."
 .byte NewLine
-.text "Já passou da hora de eu me livrar dele."
+.text "Já passou da hora de eu descartá-lo."
 .byte WaitForA
 .byte ScrollText
-.text "Eu só preciso me encontrar com o Príncipe,"
+.text "Só preciso me encontrar com o Príncipe,"
 .byte NewLine
-.text "e então eu posso me livrar dele."
+.text "e então posso me livrar dele."
 .byte WaitForA
 .byte ScrollText
-.text "Como eu lido com essa situação...?"
+.text "Como será que eu lido com essa situação...?"
 .byte NewLine
 .text "Acho que, primeiramente, é melhor"
 .byte NewLine
@@ -118,13 +121,13 @@ dialogueChapter02Opening2A
 .word LoadPortrait
 .word leif_portrait2
 .byte $09 ; font 9(always use font 9)
-.text "Eyvel, olhe!"
+.text "Eyvel, olha!"
 .byte NewLine
 .text "A vila está sendo atacada!"
 .byte WaitForA
 
 .byte Right_Slot
-.text "Hmm... são os capangas do Lifis, pelo que parece."
+.text "Hmm... parece que são os capangas do Lifis."
 .byte NewLine
 .text "Eles ficaram quietos um bom tempo,"
 .byte NewLine
@@ -225,12 +228,12 @@ dialogueChapter02RonanHouse
 	
 .byte Right_Slot
 .byte ScrollText
-.text "Ah, vocês são os Guerreiros Livres, certo?"
+.text "Ah, você é um dos Legionários de Fiana, certo?"
 .byte NewLine
 .text "Eu quero me juntar a vocês!"
 .byte WaitForA
 .byte ScrollText	
-.text "Eu sei atirar um arco e eu também"
+.text "Eu sei atirar com um arco e eu também"
 .byte NewLine
 .text "consigo andar bem rápido."
 .byte NewLine
@@ -254,14 +257,16 @@ dialogueChapter02RonanHouse
 .byte ScrollText
 .text "Isso não importa!"
 .byte NewLine
-.text "Toda batalha é a primeira pra alguém, não é?"
+.text "Toda batalha é a primeira de alguém, não é?"
 .byte NewLine
-.text "Essa vai ser minha primeira."
+.text "E é aqui que eu vou começar."
 .byte WaitForA
 .byte ScrollText
 .text "Se você quiser, você pode ficar entocada aí"
 .byte NewLine
-.text "esperando a morte chegar, mas eu não quero!"
+.text "esperando a morte chegar,"
+.byte NewLine
+.text "mas eu não quero isso pra mim!"
 .byte WaitForA
 
 .byte EndText
@@ -382,19 +387,19 @@ dialogueChapter02VulneraryHouse
 .byte $09 ; font 9(always use font 9)
 .text "A cada dia esses piratas tão mais ousados!"
 .byte NewLine
-.text "Recentemente, eu ouvi que eles raptaram uma"
+.text "Esses dias eu ouvi que eles raptaram uma"
 .byte NewLine
-.text "clériga fugitiva de Tahra!"
+.text "clériga que tinha fugido de Tahra!"
 .byte WaitForA
 .byte ScrollText
-.text "Quem sabe você não consegue resgatar ela?"
+.text "Ocês podem resgatar ela?"
 .byte NewLine
-.text "Aqui, leva isso aqui com você."
+.text "Leva isso aqui pra te ajudar."
 .byte WaitForA
 .byte ScrollText
-.text "Se você conseguir achar ela,"
+.text "Se ocê conseguir achar ela,"
 .byte NewLine
-.text "diga pra nós que ela está bem."
+.text "fala pra nós que ela tá bem."
 .byte WaitForA
 
 .byte EndText
@@ -415,24 +420,25 @@ dialogueChapter02VulneraryHouseVillageAttacked
 
 dialogueChapter02WorldMap1
 
+.text "Depois de descobrir que "
 .word LoadPortraitalt_1
 .long LoadPortraitalt_2
 .word $0078 ;raydrik
 .word $0207 ;y then x
-.text "Resolvendo ir atrás de Raydrik,"
+.text "Raydrik raptou suas amigas,"
 .byte WaitForA
 .byte ScrollText
 .word LoadPortraitalt_1
 .long LoadPortraitalt_2
 .word $0313 ;nanna
 .word $0A0B ;y then x
-.text "Leif se põe à caminho de Munster"
+.text "Leif decide imediatamente ir na direção"
 .byte NewLine
 .word LoadPortraitalt_1
 .long LoadPortraitalt_2
 .word $012A ;mareeta
 .word $0A04 ;y then x
-.text "para resgatar suas amigas."
+.text "de Munster, em seu encalço."
 .byte WaitForA
 
 .word ClearPortraitalt
@@ -485,7 +491,7 @@ dialogueChapter02Ending1Gaiden
 .byte WaitForA
 
 .byte Right_Slot
-.text "...E você é?"
+.text "...E quem você é?"
 .byte WaitForA
 
 .byte Left_Slot
@@ -499,16 +505,16 @@ dialogueChapter02Ending1Gaiden
 
 .byte Right_Slot
 .byte ScrollText
-.text "Você precisa de algo da minha parte?"
+.text "Você precisa de alguma coisa?"
 .byte NewLine
-.text "Sem querer lhe desrespeitar,"
+.text "Sem querer te desrespeitar,"
 .byte NewLine
-.text "mas eu não tenho tempo para conversar."
+.text "mas eu estou com pressa."
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "Nem eu, senhor."
+.text "Eu também, senhor."
 .byte NewLine
 .text "Eu imagino que tu vais para as"
 .byte NewLine
@@ -524,9 +530,9 @@ dialogueChapter02Ending1Gaiden
 .text "atacarem Iz de novo."
 .byte WaitForA
 .byte ScrollText
-.text "Ademais, me disseram que eles tem"
+.text "Ademais, me disseram que eles raptaram"
 .byte NewLine
-.text "uma clériga aprisionada lá."
+.text "uma clériga, imagino que ela esteja lá ainda."
 .byte WaitForA
 
 .byte Left_Slot
@@ -551,7 +557,7 @@ dialogueChapter02Ending1Gaiden
 .byte NewLine
 .text "muitas surpresas."
 .byte NewLine
-.text "Bem, vamos indo, então."
+.text "Bem, siga-me, se quiseres."
 .byte WaitForA
 
 .byte EndText
@@ -598,27 +604,30 @@ dialogueChapter02Ending1Regular
 .text "mas com os piratas na região,"
 .byte WaitForA
 .byte ScrollText
-.text "Não seria muito inteligente"
+.text "Não seria muito sábio"
 .byte NewLine
-.text "se eu fosse sozinho."
+.text "eu ir sozinho."
 .byte NewLine
-.text "Tu me permites eu te acompanhar?"
+.text "Tu permites que eu te acompanhe?"
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "Certamente, pode nos acompanhar."
+.text "Claro, pode vir com a gente."
 .byte NewLine
-.text "Logo estaremos chegando na Porta de Kérberos."
+.text "Logo estaremos chegando na Porta de Kérbero."
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
 .text "Muito obrigado, senhor. Tenho certeza que"
 .byte NewLine
-.text "pelo caminho eu conseguirei te pagar com sabedoria."
+.text "pelo caminho eu conseguirei"
 .byte NewLine
-.text "Eu vou fazer valer minha presença."
+.text "te pagar com sabedoria."
+.byte WaitForA
+.byte NewLine
+.text "Não se arrependerá de ter me acolhido."
 .byte WaitForA
 
 .byte EndText

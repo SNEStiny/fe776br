@@ -22,11 +22,11 @@ dialogueChapter05Opening1
 
 .byte Left_Slot
 .byte ScrollText
-.text "Eu não posso expressar o quão feliz fico "
+.text "Eu fico muito feliz mesmo em ver você"
 .byte NewLine
-.text "em saber que você está segura,"
+.text "bem, Naninha."
 .byte NewLine
-.text "Naninha. Aquele maldito Raydrik te machucou?"
+.text "Aquele maldito Raydrik te machucou?"
 .byte WaitForA
 
 .byte Right_Slot
@@ -70,7 +70,7 @@ dialogueChapter05Opening1
 .text "me prometeu que eu veria minha filha!"
 .byte WaitForA
 .byte ScrollText
-.text "É sério que você é tão ruim que nem sua"
+.text "Você é tão ruim que nem sua"
 .byte NewLine
 .text "palavra vale alguma coisa?!"
 .byte WaitForA
@@ -172,22 +172,20 @@ dialogueChapter05RaydrikDialogue
 .word veld_portrait
 
 .byte Right_Slot
-.text "Peço mil desculpas por"
-.byte NewLine
-.text "lhe deixar esperando,"
+.text "Peço mil desculpas por lhe deixar esperando,"
 .byte NewLine
 .text "Bispo Veld."
 .byte WaitForA
 
 .byte Left_Slot
-.text "Raydrik, você não é capaz de "
+.text "Raydrik, você não é capaz de"
 .byte NewLine
 .text "fazer um pedido de desculpas de coração,"
 .byte NewLine
 .text "muito menos mil deles."
 .byte WaitForA
 .byte ScrollText
-.text "Para o Barão de uma área tão"
+.text "Mesmo sendo o Barão de uma área tão"
 .byte NewLine
 .text "agitada quanto Munster, você aparenta"
 .byte NewLine
@@ -221,14 +219,14 @@ dialogueChapter05RaydrikDialogue
 .byte ScrollText
 .text "Bem, agora tudo está nas mãos dela..."
 .byte NewLine
-.text "É melhor que aquela “Mestra da Espada”"
+.text "Vamos ver o que nossa Mestra Espadachim"
 .byte NewLine
-.text "faça jus ao próprio título."
+.text "tem a nos mostrar."
 .byte WaitForA
 .byte ScrollText
-.text "Ah, e agora nossa estrela"
+.text "Nossa estrela já está no"
 .byte NewLine
-.text "chegou ao centro de seu palco!"
+.text "centro de seu palco!"
 .byte NewLine
 .text "Heh, heh, heh..."
 .byte WaitForA
@@ -246,7 +244,7 @@ dialogueChapter05MareetaAppears1
 .word eyvel_portrait
 
 .byte Left_Slot
-.text "ELa é ainda melhor do que pensei...!"
+.text "Ela é ainda melhor do que pensei...!"
 .byte NewLine
 .text "Que encanto! Aqui, uma recompensa"
 .byte NewLine
@@ -379,16 +377,16 @@ dialogueChapter05MareetaAppears4
 
 .byte Left_Slot
 .byte ScrollText
-.text "Eu? Eu não fiz nada. Na verdade o oposto:"
+.text "Eu? Eu não fiz nada de errado. Pelo contrário:"
 .byte NewLine
 .text "ela estava tentando escapar, então eu"
 .byte NewLine
 .text "dei a ela esta espada para ajudá-la."
 .byte WaitForA
 .byte ScrollText
-.text "É uma espada excepcional, direto da sala dos"
+.text "É uma espada excepcional, direto da sala de"
 .byte NewLine
-.text "tesouros dentro deste mesmo castelo."
+.text "tesouros deste mesmo castelo."
 .byte WaitForA
 .byte ScrollText
 .text "...A espada sombria,"
@@ -419,7 +417,7 @@ dialogueChapter05MareetaAppears4
 
 .byte Right_Slot
 .byte ScrollText
-.text "Eu vou arrancar essa sua língua mentirosa da"
+.text "Eu vou arrancar essa língua mentirosa da sua"
 .byte NewLine
 .text "boca! Como... Como ousa fazer isso com min—" ; interrupt
 .byte WaitForA
@@ -613,7 +611,7 @@ dialogueChapter05MareetaKilled
 
 .byte Left_Slot
 .byte ScrollText
-.text "A-a mulher é uma besta...!"
+.text "A-a mulher é uma fera...!"
 .byte WaitForA
 .byte ScrollText
 
@@ -632,7 +630,7 @@ dialogueChapter05RaydrikPanicsA
 .byte Right_Slot
 .word LoadPortrait
 .word raydrik_portrait
-.text "O-ok, a garota não foi o suficiente"
+.text "C-certo, a garota não foi o suficiente"
 .byte NewLine
 .text "pra você?! Vamos ver como você lida"
 .byte NewLine
@@ -641,7 +639,7 @@ dialogueChapter05RaydrikPanicsA
 .byte ScrollText
 .text "Homens, entrem na arena e"
 .byte NewLine
-.text "derramem o sangue dela!"
+.text "matem-a!"
 .byte WaitForA
 
 .word PlayMusic
@@ -760,7 +758,7 @@ dialogueChapter05NannaLeftAlone
 .text "não poderia nem sair do castelo."
 .byte WaitForA
 .byte ScrollText
-.text "Depois disto, estou certo de que ela irá"
+.text "Depois disto, estou certo de que ela"
 .byte NewLine
 .text "será uma diversão ainda mais interessante!"
 .byte WaitForA
@@ -788,7 +786,7 @@ dialogueChapter05ArenaOpenEyvelNanna
 .byte Right_Slot
 .word LoadPortrait
 .word leif_portrait2
-.text "Nanna! Você está a salvo!"
+.text "Nanna! Você está bem!"
 .byte WaitForA
 
 .byte Left_Slot
@@ -1022,7 +1020,7 @@ dialogueChapter05ArenaOpenNannaAlone
 
 .byte Right_Slot
 .byte ScrollText
-.text "A Eyvel está contigo?"
+.text "E a Eyvel, ela está com você?"
 .byte WaitForA
 
 .byte Left_Slot
@@ -1060,7 +1058,7 @@ dialogueChapter05ArenaOpenAfterPetrify
 
 .text "Não! Deuses, NÃO!"
 .byte NewLine
-.text "Eyvel! O que fizeram contigo?!"
+.text "Eyvel! O que fizeram com você?!"
 .byte WaitForA
 .byte ScrollText
 .text "Depois de tudo o que você fez por mim..."

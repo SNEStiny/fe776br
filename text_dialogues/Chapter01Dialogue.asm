@@ -69,14 +69,14 @@ dialogueChapter01Opening1
 	.byte ScrollText
 	.text "Dizem eles que ele saiu com os"
 	.byte NewLine
-	.text "Guerreiros de Fiana para socorrer uma"
+	.text "Legionários de Fiana para socorrer uma"
 	.byte NewLine
 	.text "vila perto daqui de um ataque de piratas."
 	.byte WaitForA
 	
 	.byte Left_Slot
 	.byte ScrollText
-	.text 'E quem são esses "Guerreiros"?'
+	.text 'E quem são esses "Legionários"?'
 	.byte WaitForA
 	
 	.byte Right_Slot
@@ -97,9 +97,9 @@ dialogueChapter01Opening1
 	.text "uma mercenária viajante."
 	.byte WaitForA
 	.byte ScrollText
-	.text "Ela então assumiu a vila e fundou os"
+	.text "Ela então assumiu a vila e fundou a"
 	.byte NewLine
-	.text "Guerreiros de Fiana para proteger a região"
+	.text "Legião de Fiana para proteger a região"
 	.byte NewLine
 	.text "de possíveis outros ataques."
 	.byte WaitForA
@@ -145,12 +145,13 @@ dialogueChapter01Opening1
 	.byte ScrollText
 	.text "Quero que você traga aquele garoto para"
 	.byte NewLine
-	.text "mim com os pés e as mãos accorrentados."
+	.text "mim acorrentado, entendido?"
 	.byte WaitForA
 	
 	.byte Right_Slot
 	.byte ScrollText
 	.text "Não trairei sua confiança, meu senhor."
+	.byte WaitForA
 	
 	.byte Left_Slot
 	.word ClearPortrait
@@ -184,9 +185,9 @@ dialogueChapter01Opening2
 	
 	.byte Left_Slot
 	.byte ScrollText
-	.text "Hah! Espiríto de combatente!"
+	.text "Hah! Vejo que tem um espírito guerreiro!"
 	.byte NewLine
-	.text "E o rosto de uma bela donzela!"
+	.text "E também o rosto de uma bela donzela!"
 	
 	.byte Right_Slot
 	.byte ScrollText
@@ -214,7 +215,7 @@ dialogueChapter01Opening2
 	.byte NewLine
 	.text "sangue nobre como você"
 	.byte NewLine
-	.text "num fim de mundo desses."
+	.text "em um fim de mundo desses."
 	.byte WaitForA
 
 	.byte Right_Slot
@@ -224,7 +225,7 @@ dialogueChapter01Opening2
 	
 	.byte Left_Slot
 	.byte ScrollText
-	.text "Bem, vocês foram uma"
+	.text "Bem, vocês duas foram uma"
 	.byte NewLine
 	.text "bela surpresa para mim."
 	.byte WaitForA
@@ -237,11 +238,13 @@ dialogueChapter01Opening2
 	.byte ScrollText
 	.text "Weismann, eu estarei voltando para Munster."
 	.byte NewLine
-	.text "Não me desaponte."
+	.text "Não me decepcione."
 	.byte WaitForA
 
 	.byte Right_Slot
-	.text "Tudo será como tu quiseres, meu senhor."
+	.text "Tudo será conforme tu quiseres,"
+	.byte NewLine
+	.text "meu senhor."
 	.byte WaitForA
 	
 	.byte EndText
@@ -260,7 +263,7 @@ dialogueChapter01Opening3
     .byte Left_Slot
     .word LoadPortrait
     .word halvan_portrait
-	.text "Eu irei dar uma olhada, comandante."
+	.text "Eu irei dar uma olhada, Capitã."
 	.byte NewLine
 	.text "Espere um momento."
 	.byte WaitForA
@@ -277,7 +280,7 @@ dialogueChapter01Opening4
     .word LoadPortrait
     .word halvan_portrait
 	.byte $09 ; font 9(always use font 9)	
-	.text "Comandante, Fiana está cheia de"
+	.text "Capitã, Fiana está cheia de"
 	.byte NewLine
 	.text "tropas imperiais!"
 	.byte WaitForA
@@ -300,7 +303,7 @@ dialogueChapter01Opening4
 	.word eyvel_portrait
 	.byte Left_Slot	
 	.byte NewLine
-	.text "Comandante, vamos atacar!"
+	.text "Capitã, vamos atacar!"
 	.byte WaitForA
 	.byte ScrollText
 	
@@ -314,9 +317,7 @@ dialogueChapter01Opening4
 	
 	.byte Left_Slot
 	.byte ScrollText
-	.text "É, Halvan, tenho certeza que tá tudo"
-	.byte NewLine
-	.text "bem lá dentro! Vamos sentar"
+	.text "É, Halvan, vamos sentar"
 	.byte NewLine
 	.text "e esperar todo mundo ser preso!"
 	.byte WaitForA
@@ -364,7 +365,7 @@ dialogueChapter01Opening4
 	.byte NewLine
 	.text "Nanna ainda está na vila!"
 	.byte NewLine
-	.text "Eu não irei embora sem ela!"
+	.text "Eu não vou embora sem ela!"
 	.byte WaitForA
 	
 	.byte Right_Slot
@@ -392,7 +393,7 @@ dialogueChapter01Opening4
 	
 	.byte Right_Slot
 	.byte NewLine
-	.text "Vai deixar o jovem príncipe"
+	.text "Vai deixar o pequeno príncipe"
 	.byte NewLine
 	.text "se arriscar desse jeito?"
 	.byte WaitForA
@@ -400,12 +401,12 @@ dialogueChapter01Opening4
 	.byte Left_Slot
 	.text "Lorde Leif já completou seus quinze anos."
 	.byte NewLine
-	.text "Ele já tem idade para tomar"
+	.text "Creio que ele tem idade para tomar"
 	.byte NewLine
 	.text "as próprias decisões."
 	.byte WaitForA
 	.byte ScrollText
-	.text "Sendo ele meu senhor,"
+	.text "E sendo ele meu senhor,"
 	.byte NewLine
 	.text "eu não contestarei seu julgamento."
 	
@@ -465,7 +466,7 @@ dialogueChapter01Opening4
 	.byte NewLine
 	.text "neles, certo? Se a gente não se defender,"
 	.byte NewLine
-	.text "nós que vamos acabar nos rendendo."
+	.text "nós que vamos ser rendidos."
 	.byte WaitForA
 	
 	.byte ScrollText
@@ -505,7 +506,7 @@ dialogueChapter01Opening4
 	.byte NewLine
 	.text "Agora vamos mostrar ao Império quem somos nós,"
 	.byte NewLine
-	.text "os Guerreiros de Fiana!"
+	.text "os Legionários de Fiana!"
 	.byte WaitForA
 	
 	.byte EndText
@@ -519,7 +520,7 @@ dialogueChapter01DagdarArrive
 	.byte Left_Slot
 	.word LoadPortrait
 	.word tanya_portrait
-	.text "Papai, a luta já começou!"
+	.text "Papai, já começou!"
 	.byte WaitForA
 	
 	.byte Right_Slot
@@ -530,7 +531,7 @@ dialogueChapter01DagdarArrive
 	.byte NewLine
 	.text "sozinha ela num vai ganhar de todos eles."
 	.byte NewLine
-	.text "Filha, temos que correr."
+	.text "Filha, nós temo que correr."
 	.byte WaitForA
 	
 	.byte EndText
@@ -564,7 +565,7 @@ dialogueChapter01OsianHouseOsian
 	.byte WaitForA
 	
 	.byte Right_Slot
-	.text "A gente tá lá fora arriscando tudo pra "
+	.text "A gente tá lá fora arriscando tudo pra"
 	.byte NewLine
 	.text "proteger a vila em que VOCÊ mora,"
 	.byte NewLine
@@ -581,7 +582,7 @@ dialogueChapter01OsianHouseOsian
 	.text "sua boca, garoto idiota."
 	.byte WaitForA
 	.byte ScrollText
-	.text "Bem, vou ficar quieto e ir direto ao ponto."
+	.text "Bem, melhor eu ir direto ao ponto."
 	.byte NewLine
 	.text "Ocê veio buscar seu machado, né?"
 	.byte WaitForA
@@ -597,7 +598,7 @@ dialogueChapter01OsianHouseOsian
 	
 	.byte Left_Slot
 	.byte ScrollText
-	.text "Então porque diabos você esquece ele"
+	.text "Então porque diabos ocê esquece ele"
 	.byte NewLine
 	.text "quase toda vez!?"
 	.byte WaitForA
@@ -606,14 +607,14 @@ dialogueChapter01OsianHouseOsian
 	.byte ScrollText
 	.text "Ei, eu vim atrás do machado,"
 	.byte NewLine
-	.text "sem broncas, velho!"
+	.text "não de sermão, meu velho!"
 	.byte WaitForA
 	
 	.byte Left_Slot
 	.byte ScrollText
 	.text "Se era isso que ocê queria, então xispa!"
 	.byte NewLine
-	.text "Não deixe a Capitã te esperando!"
+	.text "Não deixa a Capitã te esperando!"
 	.byte WaitForA
 	
 	.byte Right_Slot
@@ -644,9 +645,9 @@ dialogueChapter01LifeRingHouse
     .word LoadPortrait
     .word oldlady_portrait
 	.byte $09 ; font 9(always use font 9)
-	.text "Esses imperiais pegaram a pequena Mareeta"
+	.text "Esses imperiais pegaram a Mareeta"
 	.byte NewLine
-	.text "e a madame Nanna— levaram elas embora"
+	.text "e a Nanna, levaram elas embora"
 	.byte NewLine
 	.text "como se num fossem nada!"
 	.byte WaitForA
@@ -656,9 +657,9 @@ dialogueChapter01LifeRingHouse
 	.text "elas, vai?"
 	.byte WaitForA
 	.byte ScrollText
-	.text "Se você realmente quer enfrentar o Império,"
+	.text "Se ocê realmente quer enfrentar o Império,"
 	.byte NewLine
-	.text "leve isso aqui com você. Isso aqui é um"
+	.text "leve isso aqui com ocê. É um"
 	.byte NewLine
 	.text "anel encantado! Legal, né?"
 	.byte WaitForA
@@ -682,30 +683,36 @@ dialogueChapter01VulneraryHouse
 	.text "Ocês chegaram! Até que enfim..."
 	.byte WaitForA
 	.byte ScrollText
-	.text "Mas ó, sem Fiana, num teria os Guerreiros de Fiana,"
+	.text "Mas ó, sem Fiana, num teria "
 	.byte NewLine
-	.text "né? Então num matem só piratas! Tem que botar"
-	.byte NewLine
-	.text "os imperiais pra correr também!"
+	.text "a Legião de Fiana, né?"
 	.byte WaitForA
 	.byte ScrollText
-	.text "...De qualquer forma,"
+	.text "Então num matem só piratas! Tem que"
 	.byte NewLine
-	.text "que bom que nós temo ocês pra nos proteger."
+	.text "botar os imperiais pra correr também!"
+	.byte WaitForA
+	.byte ScrollText
+	.text "...Enfim, que bom que"
+	.byte NewLine
+	.text "nós temo ocês pra nos proteger."
 	.byte NewLine
 	.text "Leva esse saquinho aqui com ocê."
 	.byte WaitForA
 	.byte ScrollText
-	.text "Se ocê se machucar, usa ele pra curar as feridas."
+	.text "É um remédio; se ocê se machucar,"
 	.byte NewLine
-	.text "Depois do que ocês fizeram por nós,"
+	.text "usa pra curar as feridas."
+	.byte WaitForA
+	.byte ScrollText
+	.text "É o que eu posso fazer pra retribuir"
 	.byte NewLine
-	.text "é o que eu posso fazer pra retribuir."
+	.text "o que ocês fizeram por nós."
 	.byte WaitForA
 	.byte ScrollText
 	.text "É difícil achar esses remédios por aqui,"
 	.byte NewLine
-	.text "então num use por qualquer coisa."
+	.text "então num use por qualquer coisinha, tá?"
 	.byte WaitForA
 	
 	.byte EndText
@@ -716,12 +723,12 @@ dialogueChapter01IronSwordHouse
     .word LoadPortrait
     .word moustache_portrait
 	.byte $09 ; font 9(always use font 9)	
-	.text "Cê deve saber que armas são caras, né?" 
+	.text "Cê deve ter percebido que armas são caras, né?" 
 	.byte NewLine
 	.text "Não dá pra ficar comprando coisa nova toda vez,"
 	.byte WaitForA
 	.byte ScrollText
-	.text "então nós temos que se virar tentando"
+	.text "então nós temo que se virar tentando"
 	.byte NewLine
 	.text "pegar as armas usadas dos Imperiais."
 	.byte WaitForA
@@ -740,12 +747,12 @@ dialogueChapter01IronSwordHouse
 	.byte NewLine
 	.text "outro lado da rua, então eu fui lá"
 	.byte NewLine
-	.text "e peguei a arma dele."
+	.text "e passei a mão na arma dele."
 	.byte WaitForA
 	.byte ScrollText
-	.text "...Bem, não serve muito pra mim,"
+	.text "...Bem, num serve muito pra mim,"
 	.byte NewLine
-	.text "já que eu não sei lutar. Leva ela com ocê"
+	.text "já que eu num sei usar. Leva ela com ocê"
 	.byte NewLine
 	.text "então, deve te servir de alguma coisa."
 	.byte WaitForA
@@ -794,7 +801,9 @@ dialogueChapter01HalvanHouseHalvan
 	.text "eu tô guardando ele pra você, irmão."
 	.byte WaitForA
 	.byte ScrollText
-	.text "Agora vai lá fora e use esse machado!"
+	.text "Agora vai lá fora e faça bom uso"
+	.byte NewLine
+	.text "desse machado!"
 	.byte WaitForA
 	
 	.byte EndText
@@ -1056,7 +1065,7 @@ dialogueChapter01WorldMap5
 	
 	.text "A vila possui uma pequena mílicia:"
 	.byte NewLine
-	.text "Os Guerreiros de Fiana,"
+	.text "A Legião de Fiana,"
 	.byte WaitForA
 	.byte NewLine
 	.text "liderados pela espadachim Eyvel."

@@ -31,19 +31,19 @@ dialogueChapter04xOpening1
 .byte ScrollText
 .text "Então podemos mandá-las todas para casa!"
 .byte NewLine
-.text "Os pais delas devem estar tão preocupados."
+.text "Os pais delas devem estar muito preocupados."
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "Foco, Asbel. Há guardas demais aqui para"
+.text "Foco, Asbel. Há muitos guardas por aqui,"
 .byte NewLine
-.text "cantar vitória antes da hora."
+.text "ainda não podemos cantar vitória."
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "Entendido."
+.text "Sim, senhor."
 .byte WaitForA
 
 .byte Right_Slot
@@ -71,7 +71,7 @@ dialogueChapter04xOpening1
 .byte ScrollText
 .text "...Asbel, o que houve?"
 .byte NewLine
-.text "Você está branco como uma folha de papel!"
+.text "Você está branco como a neve!"
 .byte WaitForA
 
 .byte Left_Slot
@@ -146,9 +146,9 @@ dialogueChapter04xOpening1
 .text "A culpa não é sua."
 .byte WaitForA
 .byte ScrollText
-.text "Ademais, praticamente tudo o que"
+.text "Ademais, tudo que te ensinei foi"
 .byte NewLine
-.text "eu te ensinei foi como usar Grafcalibur."
+.text "como usar Grafcalibur."
 .byte WaitForA
 .byte ScrollText
 .text "Se acha que me deve alguma coisa, então"
@@ -172,9 +172,9 @@ dialogueChapter04xOpening1
 .text "finalmente acabará,"
 .byte WaitForA
 .byte ScrollText
-.text "e a escuridão que paira sobre a Trácia."
+.text "e a escuridão que paira sobre a Trácia"
 .byte NewLine
-.text "finalmente irá se dissipar."
+.text "logo irá se dissipar."
 .byte WaitForA
 .byte ScrollText
 .text "...Nós nos veremos de novo, Asbel."
@@ -186,7 +186,7 @@ dialogueChapter04xOpening1
 .byte ScrollText
 .text "Munster...? T-tá! Entendido!"
 .byte NewLine
-.text "Não se esqueça do nosso combinado,"
+.text "Vou tomar isso como uma promessa,"
 .byte NewLine
 .text "Senhor Ced!"
 .byte WaitForA
@@ -245,7 +245,7 @@ dialogueChapter04xAsbelRecruitment
 .byte Right_Slot
 .word LoadPortrait
 .word asbel_portrait
-.text "Lorde Leif...!  "
+.text "Lorde Leif...! "
 
 .byte Left_Slot
 .word LoadPortrait
@@ -281,7 +281,7 @@ dialogueChapter04xAsbelRecruitment
 
 .byte Left_Slot
 .byte ScrollText
-.text "Você saiu de Tahra tão logo eu saí?! "
+.text "Você saiu de Tahra logo depois de eu ir embora?!"
 .byte NewLine
 .text "Então...você passou os últimos três"
 .byte NewLine
@@ -441,9 +441,9 @@ dialogueChapter04xKarinCedTalk
 .byte ScrollText
 .text "É-é..."
 .byte NewLine
-.text "...Lamento informá-lo que Sua"
+.text "...Lamento informá-lo que Vossa Majestade,"
 .byte NewLine
-.text "Majestade, a Rainha... ela, hm..."
+.text "a Rainha... ela, hm..."
 .byte WaitForA
 
 .byte Right_Slot
@@ -476,9 +476,9 @@ dialogueChapter04xKarinCedTalk
 
 .byte Right_Slot
 .byte ScrollText
-.text "E isso importa? Eu não consegui... Pai..."
+.text "E isso importa? Eu não consegui... meu pai..."
 .byte NewLine
-.text "Eu queria trazer ele de volta pra minha mãe."
+.text "Eu queria trazer ele de volta pra mamãe."
 .byte WaitForA
 
 .byte Left_Slot
@@ -515,7 +515,7 @@ dialogueChapter04xKarinCedTalk
 .byte ScrollText
 .text "Madame Fee ainda é só uma criança, e"
 .byte NewLine
-.text "você deixou nas mãos delas o fardo de"
+.text "você deixou nas mãos dela o fardo de"
 .byte NewLine
 .text "governar Silesse."
 .byte WaitForA
@@ -579,12 +579,12 @@ dialogueChapter04xKarinCedTalk
 .byte ScrollText
 .text "Conforme eu investigava,"
 .byte NewLine
-.text "eu descobri o quão profundamente os"
+.text "eu descobri o quanto os moradores"
 .byte NewLine
-.text "moradores de Munster sofriam."
+.text "de Munster sofrem."
 .byte WaitForA
 .byte ScrollText
-.text "Eu não poderia abandoná-los da mesma forma"
+.text "Eu não podia abandoná-los da mesma forma"
 .byte NewLine
 .text "que meu pai tinha abandonado Silesse."
 .byte WaitForA
@@ -610,7 +610,7 @@ dialogueChapter04xKarinCedTalk
 .text "eu irei voltar para Silesse."
 .byte WaitForA
 .byte ScrollText
-.text "Eu estimo que isso vai levar no máximo"
+.text "Eu creio que isso vai levar no máximo"
 .byte NewLine
 .text "meio ano."
 .byte WaitForA
@@ -626,7 +626,7 @@ dialogueChapter04xKarinCedTalk
 
 .byte Right_Slot
 .byte ScrollText
-.text "Heh. Me sinto lisonjeado, "
+.text "Heh. Me sinto lisonjeado,"
 .byte NewLine
 .text "Karin, mas como seu príncipe,"
 .byte NewLine
@@ -635,19 +635,19 @@ dialogueChapter04xKarinCedTalk
 .byte ScrollText
 .text "Eu não vou conseguir lutar sabendo"
 .byte NewLine
-.text "que você está se arriscando."
+.text "o perigo que está passando."
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "...Essa é a forma bonita de dizer que"
+.text "...Essa é uma forma bonita de dizer que"
 .byte NewLine
-.text "eu só estaria atrapalhando. "
+.text "eu só iria te atrapalhar."
 .byte WaitForA
 .byte ScrollText
-.text "Mas você está certo, eu iria apenas"
+.text "Mas você está certo, acho que é"
 .byte NewLine
-.text "te atrapalhar."
+.text "isso mesmo que iria acontecer..."
 .byte WaitForA
 .byte ScrollText
 .text "Certo, vou voltar para Silesse—"
@@ -673,7 +673,7 @@ dialogueChapter04xKarinCedTalk
 
 .byte Right_Slot
 .byte ScrollText
-.text "Hah! E se eu te dissese"
+.text "Ha ha, não! Se eu te dissese"
 .byte NewLine
 .text "que isto é uma relíquia da"
 .byte NewLine
@@ -684,7 +684,7 @@ dialogueChapter04xKarinCedTalk
 .byte NewLine
 .text "de autoria de meu antepassado,"
 .byte NewLine
-.text "o cruzado Ced, o próprio."
+.text "o cruzado Ced."
 .byte WaitForA
 .byte ScrollText
 .text "Ele o imbuiu com potentes magias que"
@@ -703,7 +703,7 @@ dialogueChapter04xKarinCedTalk
 .byte ScrollText
 .text "Você realmente vai me confiar"
 .byte NewLine
-.text "com algo tão valioso?"
+.text "algo tão valioso?"
 .byte WaitForA
 .byte ScrollText
 .text "Eu... Eu não esperava por isso!"
@@ -733,7 +733,6 @@ dialogueChapter04xKarinCedTalk
 .text "com ele por um tempo."
 .byte WaitForA
 .byte ScrollText
-.byte NewLine
 .text "Eu irei devolvê-lo no momento que"
 .byte NewLine
 .text "você voltar para Silesse!"
@@ -769,12 +768,12 @@ dialogueChapter04xUpperCellUnlock
 .byte NewLine
 .text "C-como eu vou para casa?"
 .byte NewLine
-.text "Hmm hmm... O caminho à direita...?"
+.text "Hmm hmm... à minha esquerda...?"
 .byte WaitForA
 .byte ScrollText
-.text "Então eu vou por aquele lado e não vou"
+.text "Então eu vou por ali e não vou parar"
 .byte NewLine
-.text "parar até chegar lá...! O-obrigado!..."
+.text "parar até chegar em casa...! O-obrigado!..."
 .byte WaitForA
 
 .byte EndText

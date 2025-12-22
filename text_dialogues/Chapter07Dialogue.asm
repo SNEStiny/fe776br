@@ -984,7 +984,7 @@ dialogueChapter07LeifFinnTalk
 
 .byte Right_Slot
 .byte ScrollText
-.text "A comandante ainda está em Munster…"
+.text "A comandante ainda está em Munster..."
 .byte NewLine
 .text "Ela... Ela foi transformada em pedra"
 .byte NewLine
@@ -1262,7 +1262,7 @@ dialogueChapter07EisenhauSpawn
 .text "No papel... e nada mais."
 .byte NewLine
 .text "A Trácia e o Império se misturam"
-.bytye NewLine
+.byte NewLine
 .text "tão bem quanto água e óleo."
 .byte WaitForA
 .byte ScrollText

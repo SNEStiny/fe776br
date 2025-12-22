@@ -15,9 +15,9 @@ dialogueChapter04Opening1
 
 .byte Right_Slot
 .byte ScrollText
-.text "Dalsin! Os cavaleiros de Connacht logo"
+.text "Dalsin! Os cavaleiros de Connaught logo"
 .byte NewLine
-.text "virão aqui para buscar o garoto."
+.text "virão aqui para buscar o garoto de Leonster."
 .byte WaitForA
 .byte ScrollText
 .text "Até lá, eu não quero ver"
@@ -26,7 +26,7 @@ dialogueChapter04Opening1
 .byte WaitForA
 
 .byte Left_Slot
-.text "...Entendido, senhor."
+.text "...Sim, senhor."
 .byte WaitForA
 
 .byte ScrollText
@@ -35,9 +35,9 @@ dialogueChapter04Opening1
 
 .byte Right_Slot
 .byte ScrollText
-.text "Bem, para celebrar, nada melhor"
+.text "Bem, para celebrar a minha vitória,"
 .byte NewLine
-.text "do que uma visita à arena."
+.text "nada melhor do que uma visita à arena."
 .byte WaitForA
 
 .byte Left_Slot
@@ -66,7 +66,7 @@ dialogueChapter04Opening1
 .byte ScrollText
 .text "Jovens?"
 .byte NewLine
-.text "Você quer dizer... Mareeta e Nanna?"
+.text "Você está falando... da Mareeta e da Nanna?"
 .byte WaitForA
 
 .byte Right_Slot
@@ -118,22 +118,22 @@ dialogueChapter04Opening2
 .byte NewLine
 .text "Asbel e eu encontraremos as crianças."
 .byte WaitForA
+.byte ScrollText
 
 .byte Left_Slot
 .word LoadPortrait
 .word brighton_portrait
 
 .byte Right_Slot
-.text "Brighton, eu quero que você vá com a Macha"
+.text "Brighton, eu quero que você,"
 .byte NewLine
-.text "e a Lara. Vá na prisão"
-.byte WaitForA
-.byte ScrollText
-.text "e liberte todos que estiverem lá."
+.text "a Macha e a Lara deêm uma volta na prisão"
+.byte NewLine
+.text "e libertem todos que encontrarem."
 .byte WaitForA
 
 .byte Left_Slot
-.text "Sim senhor! Assim que soltarmos estas pobres"
+.text "Sim senhor! Assim que libertarmos estas pobres"
 .byte NewLine
 .text "almas, iremos nos encontrar com você."
 .byte WaitForA
@@ -164,9 +164,9 @@ dialogueChapter04Opening3
 .byte WaitForA
 
 .byte Right_Slot
-.text "Uhum. Nenhuma fechadura ficará"
+.text "Uhum. Comigo aqui, nenhuma tranca"
 .byte NewLine
-.text "no meu caminho!"
+.text "vai ficar no nosso caminho!"
 .byte NewLine
 .text "É só me proteger, tá bom?"
 .byte WaitForA
@@ -217,7 +217,7 @@ dialogueChapter04DalsinRecruitment
 .byte ScrollText
 .text "Eu só me alistei porque prometeram que"
 .byte NewLine
-.text "iam deixar eles em paz!"
+.text "iam deixar minha família em paz!"
 .byte WaitForA
 .byte ScrollText
 .text "Tch...! Maldito sejam Raydrik e o Império!"
@@ -249,12 +249,11 @@ dialogueChapter04LifisDialogue
 .text "Ocê é aquele tal de Lifis, não é mermo?"
 .byte WaitForA
 .byte ScrollText
-.byte NewLine
-.text "Ocê num era o líder duma grande tropa "
+.text "Ocê num era o líder duma grande tropa"
 .byte NewLine
 .text "de piratas ou algo assim?"
 .byte NewLine
-.text "Lá nas Ilhas Corsárias, num é?"
+.text "Os das Ilhas Corsárias, num é?"
 .byte WaitForA
 
 .byte Right_Slot
@@ -264,7 +263,7 @@ dialogueChapter04LifisDialogue
 
 .byte Left_Slot
 .byte ScrollText
-.text "Eu imaginei! Só procê saber, cê"
+.text "Eu imaginei! Só pr'ocê saber, cê"
 .byte NewLine
 .text "tá em todos os cartazes de procurado."
 .byte WaitForA
@@ -277,9 +276,7 @@ dialogueChapter04LifisDialogue
 .byte ScrollText
 .text "Heh, que legal. Acho que sou famoso."
 .byte NewLine
-.text "Hmm..."
-.byte NewLine
-.text "talvez eu possa usar esses idiotas..."
+.text "Hmm... talvez esses idiotas possam me ajudar..."
 .byte WaitForA
 .byte ScrollText
 
@@ -288,7 +285,7 @@ dialogueChapter04LifisDialogue
 .word bandit1_portrait
 .text "Eu falei algo errado?"
 .byte NewLine
-.text "Ocê tá me olhando estranho..."
+.text "Cê tá me olhando estranho..."
 .byte WaitForA
 
 .byte Right_Slot
@@ -335,7 +332,7 @@ dialogueChapter04LifisDialogue
 .byte ScrollText
 .text "...Sério?"
 .byte NewLine
-.text "P-pois então me leve co ocê, chefe!"
+.text "P-pois então me leve co'ocê, chefe!"
 .byte WaitForA
 
 .byte Right_Slot
@@ -349,9 +346,9 @@ dialogueChapter04LifisDialogue
 .byte ScrollText
 .text "De verdade, chefe?! Deixa comigo!"
 .byte NewLine
-.text "Nenhum soldado vai ficar no caminho"
+.text "Eu vou acabar com os soldados,"
 .byte NewLine
-.text "de nós, você vai ver!"
+.text "ocê vai ver!"
 .byte WaitForA
 
 .byte Right_Slot
@@ -438,9 +435,7 @@ dialogueChapter04LeifDialogue
 .byte Right_Slot
 .text "Ah, vai! Você não tentou só impedí-los,"
 .byte NewLine
-.text "você quase matou um deles"
-.byte NewLine
-.text "de tanto bater nele!"
+.text "você quase espancou um deles até a morte!"
 .byte WaitForA
 .byte NewLine
 .text "Esqueceu de falar isso."
@@ -469,7 +464,7 @@ dialogueChapter04LeifDialogue
 .byte ScrollText
 .text "Pois saiba que eu vou tirar uma sonequinha."
 .byte NewLine
-.text "Não adianta chora pelo leite derramado,"
+.text "Não adianta chorar pelo leite derramado,"
 .byte NewLine
 .text "não é? Já passou."
 .byte WaitForA
@@ -510,16 +505,14 @@ dialogueChapter04LeifDialogue
 .byte ScrollText
 .text "Eu acabei de chegar em Munster,"
 .byte NewLine
-.text "e aquele otário"
-.byte NewLine
-.text "já me meteu em confusão."
+.text "e aquele otário já me meteu em confusão."
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
 .text "Silesse..."
 .byte NewLine
-.text "Se não me engano, bem ao norte daqui."
+.text "Se não me engano, é bem ao norte daqui."
 .byte NewLine
 .text "Por que saiu de Silesse pra vir pra cá?"
 .byte WaitForA
@@ -547,14 +540,14 @@ dialogueChapter04LeifDialogue
 
 .byte Right_Slot
 .byte ScrollText
-.text "Os rebeldes os têm deixado seguros."
+.text "Os rebeldes têm os deixado seguros."
 .byte WaitForA
 .byte ScrollText
 .text "Todos aqueles que ainda querem resistir se"
 .byte NewLine
-.text "reuniram na cidade de Tófa, na qual eles"
+.text "reuniram na cidade de Tófa, e eles se"
 .byte NewLine
-.text "apoiam a família real."
+.text "juntaram em torno da família real."
 .byte WaitForA
 .byte ScrollText
 .text "Quando eu for uma cavaleira de pégaso"
@@ -587,10 +580,10 @@ dialogueChapter04LeifDialogue
 .byte NewLine
 .text "mais fofa que você vai ver na vida,"
 .byte NewLine
-.text "e inteligente também!"
+.text "e é muito inteligente também!"
 .byte WaitForA
 .byte ScrollText
-.text "Talvez é ele que está dançando pelos"
+.text "Talvez seja ele que está dançando pelos"
 .byte NewLine
 .text "céus agora... provavelmente me procurando."
 .byte WaitForA
@@ -599,7 +592,7 @@ dialogueChapter04LeifDialogue
 .byte ScrollText
 .text "Por que o príncipe saiu de Silesse"
 .byte NewLine
-.text "para começo de conversa?"
+.text "pra começo de conversa?"
 .byte WaitForA
 
 .byte Right_Slot
@@ -614,9 +607,9 @@ dialogueChapter04LeifDialogue
 .text "abandonando todos nós."
 .byte WaitForA
 .byte ScrollText
-.text "Todos se sentem traídos, e ninguém mais"
+.text "Todos se sentem traídos por ele,"
 .byte NewLine
-.text "espera que o rei volte."
+.text "e ninguém mais espera que o rei volte."
 .byte WaitForA
 .byte ScrollText
 .text "Então nós queremos que, ao invés dele, volte"
@@ -645,18 +638,18 @@ dialogueChapter04LeifDialogue
 .text "até lá, pelo menos?"
 .byte WaitForA
 .byte ScrollText
-.text "Francamente, tamo numa prisão!"
+.text "Francamente, tamos numa prisão!"
 .byte NewLine
 .text "Não é como se desse pra fugir"
 .byte NewLine
-.text "desse falatório!"
+.text "desse seu falatório!"
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "E não é como se desse pra escapar da"
+.text "E não é como se desse pra escapar dos"
 .byte NewLine
-.text "sua roncada, também!"
+.text "seus roncos, também!"
 .byte WaitForA
 .byte ScrollText
 .text "Sinceramente, como você consegue"
@@ -674,7 +667,7 @@ dialogueChapter04LeifDialogue
 .byte ScrollText
 .word LoadPortrait
 .word guard_portrait
-.text "Aí! Calados, idiotas!"
+.text "Aí! Calados, vocês!"
 .byte WaitForA
 
 .byte ScrollText
@@ -710,7 +703,7 @@ dialogueChapter04LeifDialogue
 .byte ScrollText
 .text "Fala o que tá te incomodando."
 .byte NewLine
-.text "Não deve fazer mal."
+.text "Não vai fazer mal."
 .byte WaitForA
 
 .byte Right_Slot
@@ -719,7 +712,7 @@ dialogueChapter04LeifDialogue
 .byte NewLine
 .text "Na verdade, talvez vocês"
 .byte NewLine
-.text "dois pudessem até mesmo me ajudar..."
+.text "dois possam até mesmo me ajudar..."
 .byte WaitForA
 
 .byte EndText
@@ -769,9 +762,9 @@ dialogueChapter04NPCDialogue
 .byte ScrollText
 .word LoadPortrait
 .word ylgreen_portrait
-.text "Caramba, agora o Império tranca até"
+.text "Caramba, agora o Império tranca"
 .byte NewLine
-.text "mesmo vovós doentes?"
+.text "vovós doentes também?"
 .byte WaitForA
 
 .byte Right_Slot
@@ -846,21 +839,19 @@ dialogueChapter04LeifCellUnlock
 .byte WaitForA
 
 .byte Right_Slot
-.text "Quem diabos são esses caras?"
+.text "E quem são eles?"
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
 .text "E isso importa? Guarde essas perguntas"
 .byte NewLine
-.text "pra quando a gente estiver bem,"
+.text "pra quando a gente tiver bem,"
 .byte NewLine
 .text "bem longe daqui."
 .byte WaitForA
 .byte ScrollText
-.text "Olhe!"
-.byte NewLine
-.text "Tem uma escadaria ao norte que leva para"
+.text "Ah, Tem uma escadaria ao norte que leva para"
 .byte NewLine
 .text "fora daqui."
 .byte WaitForA
@@ -931,7 +922,7 @@ dialogueChapter04LeifCellUnlock
 .byte NewLine
 .text "deve estar meio grogue. Quer que a gente"
 .byte NewLine
-.text "espere você acordar direitinho?"
+.text "espere você acordar?"
 .byte WaitForA
 
 .byte Left_Slot
@@ -1047,7 +1038,7 @@ dialogueChapter04Ending
 .byte Left_Slot
 .word LoadPortrait
 .word manfroy_portrait
-.text "Veld, como vão suas operações aqui?"
+.text "Veld, como vão suas operações por aqui?"
 .byte WaitForA
 
 .byte Right_Slot
@@ -1072,12 +1063,12 @@ dialogueChapter04Ending
 .byte ScrollText
 .text "Se eles continuarem rebeldes,"
 .byte NewLine
-.text "faça deles um exemplo:"
+.text "faça deles um exemplo: queime a cidade,"
 .byte NewLine
-.text "queimem a cidade e seus habitantes."
+.text "junto com todos os seus moradores."
 .byte WaitForA
 .byte ScrollText
-.text "Mostre a Munster que o Império"
+.text "Mostre para Munster que o Império"
 .byte NewLine
 .text "não tolera resistência."
 .byte WaitForA
@@ -1111,7 +1102,7 @@ dialogueChapter04Ending
 .byte ScrollText
 .text "Certamente você tem uma explicação para"
 .byte NewLine
-.text "essa má fé de seu pai, certo?"
+.text "essa atitude de seu pai, certo?"
 .byte WaitForA
 
 .byte Right_Slot
@@ -1124,12 +1115,12 @@ dialogueChapter04Ending
 .byte NewLine
 .text "veementemente contra a prática de..."
 .byte NewLine
-.text "caças às crianças."
+.text '"caças à crianças."'
 .byte WaitForA
 .byte ScrollText
 .text "Meu próprio irmão está"
 .byte NewLine
-.text "entre os dissidentes,"
+.text "entre os que discordam,"
 .byte NewLine
 .text "e eu concordo com ele."
 .byte WaitForA
@@ -1141,23 +1132,21 @@ dialogueChapter04Ending
 .text "você pare esta selvageria!"
 .byte WaitForA
 .byte ScrollText
-.text "Sequestrando crianças jovens "
+.text "Sequestrando crianças jovens"
 .byte NewLine
-.text "demais para erguer uma espada?"
+.text "demais para erguer uma espada e"
+.byte NewLine
+.text "separando-as de suas famílias?"
 .byte WaitForA
-.byte ScrollText
-.text "Separando-as de suas famílias?"
 .byte NewLine
-.text "Simplesmente terrível!"
+.text "Simplesmente inconcebível!"
 .byte WaitForA
 .byte ScrollText
 .text "Além disso..."
 .byte NewLine
-.text "Você leva essas inocentes"
+.text "Você leva essas inocentes almas"
 .byte NewLine
-.text "almas e as sacrifica"
-.byte NewLine
-.text "à seu deus Loptous!"
+.text "e as sacrifica à seu deus Loptous!"
 .byte WaitForA
 .byte NewLine
 .text "Como pode fazer algo assim?!"
@@ -1169,7 +1158,7 @@ dialogueChapter04Ending
 .word julius_portrait
 .text "Ishtar, meu amor,"
 .byte NewLine
-.text "houve um terrível mal-entendido."
+.text "você está entendendo tudo errado."
 .byte WaitForA
 .byte ScrollText
 .text "Jamais eu iria compactuar com o massacre"
@@ -1211,7 +1200,7 @@ dialogueChapter04Ending
 .byte NewLine
 .text "para sobreviver sem suas famílias..."
 .byte WaitForA
-.byte ScrollText
+.byte NewLine
 .text "É isso que você chama de felicidade?"
 .byte WaitForA
 
@@ -1219,15 +1208,15 @@ dialogueChapter04Ending
 .byte ScrollText
 .text "...Ah, minha querida, um dia você"
 .byte NewLine
-.text "entenderá minha sabedoria, ou melhor,"
-.byte WaitForA
-.byte ScrollText
+.text "entenderá minha sabedoria, ou melhor dizendo,"
+.byte NewLine
 .text "a sabedoria de seu noivo,"
+.byte WaitForA
 .byte NewLine
 .text "disso eu tenho certeza."
 .byte WaitForA
 .byte ScrollText
-.text "Diga-me, há um lindo jardim lá fora."
+.text "Veja, há um lindo jardim lá fora."
 .byte NewLine
 .text "Vamos apreciá-lo juntos, Ishtar."
 .byte WaitForA
@@ -1262,7 +1251,7 @@ dialogueChapter04RightCellUnlock
 .byte Right_Slot
 .word LoadPortrait
 .word elder_portrait
-.text "Muito obrigado pra ocês, Magi! Gente,"
+.text "Muito obrigado pr'ocês, Magi! Gente,"
 .byte NewLine
 .text "tem uma escadaria aqui perto, vamos!"
 .byte WaitForA
@@ -1295,14 +1284,14 @@ dialogueChapter04WorldMap2
 .text "vassalo e confiável aliado de Leonster."
 .byte WaitForA
 .byte ScrollText
-.text "Agora, era governado pelos conquistadores"
+.text "Agora, a cidade é governada pelos"
 .byte NewLine
-.text "da Trácia Setentrional,"
+.text "conquistadores da Trácia Setentrional,"
 .byte WaitForA
 .byte ScrollText
-.text "a Casa de Friege, que foram instalados"
+.text "a Casa de Friege, que foi apontada"
 .byte NewLine
-.text "como governantes pelo Império de Grannvale."
+.text "para o governo pelo Império de Grannvale."
 .byte WaitForA
 .byte ScrollText
 
@@ -1325,12 +1314,12 @@ dialogueChapter04WorldMap3
 .text "traindo a casa de Leonster."
 .byte WaitForA
 .byte ScrollText
-.text "Como parte desse acordo, ele"
+.text "Como parte desse acordo, ele recebeu"
 .byte NewLine
-.text "foi nomeado Barão de Munster."
+.text "o título de Barão de Munster."
 .byte WaitForA
 .byte ScrollText
-.text "embora ainda seja subordinado ao Lorde Bloom,"
+.text "embora ainda seja subordinado ao Rei Bloom,"
 .word LoadPortraitalt_1
 .long LoadPortraitalt_2
 .word $017C ;blume
@@ -1339,7 +1328,7 @@ dialogueChapter04WorldMap3
 .text "líder da Casa de Friege,"
 .byte WaitForA
 .byte ScrollText
-.text "à Raydrik foi entregue"
+.text "Raydrik tem autonomia para fazer"
 .byte NewLine
 .text "a gestão cotidiana de Munster."
 .byte WaitForA
@@ -1357,7 +1346,7 @@ dialogueChapter04WorldMap3
 
 dialogueChapter04WorldMap4
 
-.text "Leif agora veria em primeira mão em que"
+.text "Leif agora verá em primeira mão em que"
 .byte NewLine
 .text "tipo de negócios sórdidos"
 .byte WaitForA

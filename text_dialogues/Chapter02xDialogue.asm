@@ -11,9 +11,7 @@ dialogueChapter02xOpening1
 	.byte Left_Slot ; opentext left
 	.byte $09 ; font 9(always use font 9)
 	
-	.text "Eu não devia ter que"
-	.byte NewLine
-	.text "te falar isso, Lifis,"
+	.text "Eu não devia ter que te falar isso, Lifis,"
 	.byte NewLine
 	.text "mas acho bom você não por a mão na irmã."
 	.byte WaitForA
@@ -45,8 +43,10 @@ dialogueChapter02xOpening1
 	.byte NewLine
 	.text "dar o que você quiser."
 	.byte WaitForA
+	.byte ScrollText
+	.text "Só precisa fazer um pouco do que"
 	.byte NewLine
-	.text "Só faz o que eu quero, por favor."
+	.text "eu quero, primeiro."
 	.byte WaitForA
 	
 	.byte Right_Slot
@@ -77,7 +77,7 @@ dialogueChapter02xOpening1
 	.byte NewLine
 	.text "ninguém com um pouco de consciência consegue"
 	.byte NewLine
-	.text "só olhar e não fazer nada."
+	.text "ficar sem fazer nada."
 	.byte WaitForA
 	.byte ScrollText
 	.text "Não somos tolos. Sabemos os riscos—"
@@ -101,9 +101,9 @@ dialogueChapter02xOpening1
 	.byte ScrollText
 	.text "Tahra é o único lugar em Jugdral que"
 	.byte NewLine
-	.text "ainda está em disputa. Onde tu"
+	.text "ainda está em disputa. Onde você vai"
 	.byte NewLine
-	.text "estarás quando a história for escrita?"
+	.text "estar quando a história for escrita?"
 	.byte WaitForA
 	
 	.byte Left_Slot
@@ -134,7 +134,7 @@ dialogueChapter02xOpening1
 	.text "Mas depois que acabar, eu quero que"
 	.byte WaitForA
 	.byte NewLine
-	.text "você cumpra com sua parte do acordo."
+	.text "você cumpra com sua parte!"
 	.byte WaitForA
 	
 	.byte Right_Slot
@@ -161,16 +161,14 @@ dialogueChapter02xOpening2
 	.byte NewLine
 	.text "mas com uma tocha em mãos, você e seus"
 	.byte NewLine
-	.text "homens poderão ver mais a frente."
+	.text "companheiros poderão ver mais a frente."
 	.byte WaitForA
 	
 	.byte Right_Slot
 	.byte ScrollText
 	.text "Mas... acho que não temos nada que sirva"
 	.byte NewLine
-	.text "para fazer uma tocha. Sem uma tocha,"
-	.byte NewLine
-	.text "como vai ser?"
+	.text "para fazer uma tocha. Como vai ser, então?"
 	.byte WaitForA
 	
 	.byte Left_Slot
@@ -180,9 +178,9 @@ dialogueChapter02xOpening2
 	.text "mas ainda dará para ver um pouco a sua frente."
 	.byte WaitForA
 	.byte ScrollText
-	.text "Mas, eu imagino que tu ou mais alguém consiga"
+	.text "Também é possível que tenha uma tocha em"
 	.byte NewLine
-	.text "encontrar uma tocha em algum lugar."
+	.text "algum lugar da ilha."
 	.byte WaitForA
 	
 	.byte Right_Slot
@@ -264,7 +262,7 @@ dialogueChapter02xLeifEyvelTalk
 	.word eyvel_portrait
 	
 	.byte Left_Slot
-	.text "Os piratas parecem muito numerosos..."
+	.text "Tem muitos piratas..."
 	.byte NewLine
 	.text "Será que vamos conseguir vencê-los, Eyvel?"
 	.byte WaitForA
@@ -274,10 +272,12 @@ dialogueChapter02xLeifEyvelTalk
 	.byte NewLine
 	.text "não deixar que eles te cerquem, vai"
 	.byte NewLine
-	.text "ficar tudo bem, eu duvido que eles sejam" ;acrescentada referência a qualidade duvidosa dos inimigos
+	.text "ficar tudo bem." ;acrescentada referência a qualidade duvidosa dos inimigos
 	.byte WaitForA
+	.byte ScrollText
+	.text "Se formos enfrentando um de cada vez,"
 	.byte NewLine
-	.text "muito fortes individualmente."
+	.text "eles dificilmente serão um problema."
 	.byte NewLine
 	.text "Só precisamos ter calma."
 	.byte WaitForA
@@ -286,23 +286,23 @@ dialogueChapter02xLeifEyvelTalk
 	.byte ScrollText
 	.text "Você tem razão..."
 	.byte NewLine
-	.text "Bem, você por acaso sabe alguma coisa"
+	.text "Bem, você sabe alguma coisa sobre"
 	.byte NewLine
-	.text "sobre nosso oponente?"
+	.text "o Lifis, o líder deles?"
 	.byte WaitForA
 
 	.byte Right_Slot
 	.byte ScrollText
-	.text "Hah! Você tá superestimando ele."
+	.text "Ele é peixe pequeno."
 	.byte NewLine
-	.text "Ele não passa de um bandidinho."
+	.text "Não passa de um bandidinho qualquer."
 	.byte WaitForA
 	.byte ScrollText
-	.text "Eu sugiro que a gente capture ele vivo,"
+	.text "Eu sugiro que a gente leve ele vivo"
 	.byte NewLine
-	.text "e levá-lo de volta para Iz. Lá a gente"
+	.text "de volta para Iz. Lá ele vai se ver"
 	.byte NewLine
-	.text "resolve o que fazer com ele."
+	.text "com a justiça do povo."
 	.byte WaitForA
 	
 	.byte EndText
@@ -312,9 +312,9 @@ dialogueChapter02xEnding1
 	.word LoadPortrait
 	.word leif_portrait
 	
-	.text "Os piratas parecem ter escapado, mas"
+	.text "Os piratas fugiram, mas primeiramente,"
 	.byte NewLine
-	.text "isso não importa. A irmã está bem?"
+	.text "sabem se a irmã está bem?"
 	.byte WaitForA
 
 	.byte Right_Slot
@@ -340,7 +340,7 @@ dialogueChapter02xEnding1
 
 	.byte Left_Slot
 	.byte ScrollText
-	.text "Me perdoe, madame."
+	.text "Me perdoe, irmã."
 	.byte NewLine
 	.text "Batalhas são problemáticas, perdoe-me se"
 	.byte NewLine
@@ -349,7 +349,7 @@ dialogueChapter02xEnding1
 
 	.byte Right_Slot
 	.byte ScrollText
-	.text "Por acaso já me esqueceu, Lorde Leif?"
+	.text "Já se esqueceu de mim, Lorde Leif?"
 	.byte NewLine
 	.text "Sou eu, Safy— Safy de Tahra."
 	.byte WaitForA
@@ -363,14 +363,14 @@ dialogueChapter02xEnding1
 
 	.byte Right_Slot
 	.byte ScrollText
-	.text "Eu só tive a honra de estar a sua"
+	.text "Eu só tive a honra de estar em sua"
 	.byte NewLine
-	.text "frente duas ou três vezes, milorde."
+	.text "presença duas ou três vezes, milorde."
 	.byte NewLine
 	.text "Parece que eu não fui marcante para você!"
 	.byte WaitForA
 	.byte ScrollText
-	.text "Mas certamente você foi marcante para mim."
+	.text "Mas certamente você me marcou."
 	.byte NewLine
 	.text "Quando você deixou a cidade, fui eu quem"
 	.byte NewLine
@@ -383,7 +383,7 @@ dialogueChapter02xEnding1
 	.byte NewLine
 	.text "Você era filha de um padre da cidade,"
 	.byte NewLine
-	.text "e você também era muito amiga de Linoan."
+	.text "e também muito amiga de Linoan."
 	.byte WaitForA
 
 	.byte Right_Slot
@@ -395,7 +395,7 @@ dialogueChapter02xEnding1
 	.byte ScrollText
 	.text "Ela é filha do falecido Duque de Tahra,"
 	.byte NewLine
-	.text "eu sou apenas uma humilde serva dela."
+	.text "e eu sou apenas sua humilde serva."
 	.byte NewLine
 	.byte WaitForA
 
@@ -420,7 +420,7 @@ dialogueChapter02xEnding1
 	.text "o Império colocou um homem deles no trono."
 	.byte WaitForA
 	.byte ScrollText
-	.text "Este maldito homem foi uma"
+	.text "Aquele maldito homem foi uma"
 	.byte NewLine
 	.text "verdadeira praga para nós, nos afligindo"
 	.byte NewLine
@@ -468,7 +468,7 @@ dialogueChapter02xEnding1
 	.byte ScrollText
 	.text "Os mercenários se acovardaram e fugiram,"
 	.byte NewLine
-	.text "no momento só restam alguns voluntários"
+	.text "e neste momento só restam alguns voluntários"
 	.byte NewLine
 	.text "para defender nossa cidade do Império."
 	.byte WaitForA
@@ -484,14 +484,13 @@ dialogueChapter02xEnding1
 	.byte ScrollText
 	.text "A situação está tão ruim assim...?"
 	.byte NewLine
-	.text "Durante cinco anos, o Duque me escondeu"
+	.text "Durante cinco anos, o Duque "
 	.byte NewLine
-	.text "do Império..."
-	.byte WaitForA
-	.byte NewLine
-	.text "ele pagou por isso com a própria vida..."
+	.text "me escondeu do Império..."
 	.byte WaitForA
 	.byte ScrollText
+	.text "E ele pagou por isso com a própria vida..."
+	.byte NewLine
 	.text "Todo dia eu lembro dessa bondade que"
 	.byte NewLine
 	.text "ele fez por mim..."

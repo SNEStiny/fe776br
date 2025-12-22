@@ -21,7 +21,7 @@ dialogueChapter06Opening1
 .text "isso não será mais necessário."
 .byte WaitForA
 .byte ScrollText
-.text "Vejo que você está bem, mas..."
+.text "Vejo que tu estás bem, mas..."
 .byte NewLine
 .text "Parece que algo lhe"
 .byte NewLine
@@ -45,12 +45,13 @@ dialogueChapter06Opening1
 .text "mulher que eu pude ter como mãe."
 .byte WaitForA
 .byte ScrollText
-.text "Raydrik é só mais um dos peões deles,"
+.text "Raydrik é só mais um dos peões do Império,"
 .byte NewLine
-.text "conivente com a maldade deles!"
+.text "fazendo todo tipo de maldade por suas ordens!"
 .byte WaitForA
 .byte ScrollText
 .text "Augusto... ensine-me como guerrear!"
+.byte NewLine
 .byte NewLine
 .text "Eu... eu faço qualquer coisa pra ter"
 .byte NewLine
@@ -69,7 +70,7 @@ dialogueChapter06Opening1
 .byte NewLine
 .text "A madame Eyvel foi petrificada"
 .byte NewLine
-.text "por intermédio de um feitiço maligno..."
+.text "por um feitiço maligno..."
 .byte WaitForA
 .byte ScrollText
 .text "Príncipe, eu sinto muito, mas creio"
@@ -86,7 +87,7 @@ dialogueChapter06Opening1
 
 .byte Left_Slot
 .byte ScrollText
-.text "Há um jeito. Existe um cajado sagrado,"
+.text "Há uma forma. Existe um cajado sagrado,"
 .byte NewLine
 .text "chamado de Kia; apenas ele pode reverter"
 .byte NewLine
@@ -97,8 +98,8 @@ dialogueChapter06Opening1
 .byte NewLine
 .text "o Arcebispo Manfroy da Igreja de Loptr"
 .byte NewLine
-.text "colocou um selo no cajado,"
-.byte NewLine
+.text "pôs um selo no cajado,"
+.byte WaitForA
 .byte ScrollText
 .text "de forma que apenas os membros de"
 .byte NewLine
@@ -121,12 +122,12 @@ dialogueChapter06Opening1
 .byte ScrollText
 .text "Os guerreiros que ousaram desafiar os"
 .byte NewLine
-.text "loptirianos, e que por"
+.text "loptirianos, e que por consequência disso,"
 .byte NewLine
-.text "consequência foram petrificados,"
+.text "foram petrificados, supostamente"
 .byte WaitForA
 .byte NewLine
-.text "estariam guardados em seu interior."
+.text 'estariam "guardados" em seu interior.'
 .byte WaitForA
 .byte ScrollText
 .text "Alguns até dizem que entre eles, estão"
@@ -162,7 +163,7 @@ dialogueChapter06Opening1
 .text "É assim que a Igreja de Loptr age, Príncipe!"
 .byte WaitForA
 .byte ScrollText
-.text "Somenente na Península da Trácia, milhares—"
+.text "Somente na Península da Trácia, milhares—"
 .byte NewLine
 .text "não, dezenas de milhares de crianças foram"
 .byte NewLine
@@ -176,7 +177,7 @@ dialogueChapter06Opening1
 .byte ScrollText
 .text "como na sua pátria de Leonster, ou aqui em"
 .byte NewLine
-.text "Munster, eles que governam de facto!"
+.text "Munster, eles governam de fato!"
 .byte WaitForA
 .byte ScrollText
 .text "Nesses lugares, dificilmente verás uma"
@@ -221,16 +222,16 @@ dialogueChapter06Opening1
 .byte ScrollText
 .text "Os feiticeiros de elite da Igreja,"
 .byte NewLine
-.text "a Welkerose, lançam mão de métodos" ;Welkerose= Rosa Murcha em alemão
+.text "a Welkenrosen, lançam mão de métodos" ;Welkerose= Rosa Murcha em alemão
 .byte NewLine
 .text "que são a própria definição de crueldade:"
 .byte WaitForA
 .byte NewLine
 .text "eles não apenas executam os que"
 .byte NewLine
-.text "se rebelaram, eles queimam todos"
+.text "se rebelaram, eles queimam as suas"
 .byte NewLine
-.text "que viviam em sua vila!"
+.text "vilas natais, junto com todos os habitantes!"
 .byte WaitForA
 .byte ScrollText
 .text "Não deveria lhe surpreender que o"
@@ -257,7 +258,7 @@ dialogueChapter06Opening1
 .byte NewLine
 .text "mas agora... a escuridão paira nessa terra."
 .byte NewLine
-.text "E as nuvens negras que pairam nos céus"
+.text "E as nuvens negras que tu vês nos céus"
 .byte NewLine
 .text "são um lembrete diário dessa realidade."
 .byte WaitForA
@@ -273,7 +274,7 @@ dialogueChapter06Opening1
 .byte NewLine
 .text "alguém para revigorar o espírito do povo e"
 .byte NewLine
-.text "juntá-los em um exército."
+.text "juntá-los em uma única resistência."
 .byte WaitForA
 .byte ScrollText
 .text "Quer seja por coragem ou por inteligência,"
@@ -293,21 +294,21 @@ dialogueChapter06Opening1
 .text "Percebe o que isto quer dizer?"
 .byte WaitForA
 .byte ScrollText
-.text "Se o herdeiro da casa de Leonster"
+.text "Se tu assumir a liderança da resistência,"
 .byte NewLine
-.text "levantar um exército, todos os opositores"
+.text "creio que a grande maioria dos opositores"
 .byte NewLine
-.text "do Império na Trácia Setentrional se"
+.text "do Império na Trácia Setentrional estarão"
 .byte WaitForA
 .byte NewLine
-.text "uniriam sobre seu comando."
+.text "dispostos a se unir sobre seu comando."
 .byte WaitForA
 .byte ScrollText
-.text "Se algo do tipo viesse a acontecer,"
+.text "Se isso acontecer,"
 .byte NewLine
-.text "Talvez seria possível que o Império e"
+.text "Talvez será possível que o Império e"
 .byte NewLine
-.text "a Igreja fossem expulsos da Trácia."
+.text "a Igreja sejam expulsos da Trácia."
 .byte WaitForA
 
 .byte Right_Slot
@@ -317,27 +318,27 @@ dialogueChapter06Opening1
 .text "Você tem razão, Augusto."
 .byte WaitForA
 .byte ScrollText
-.text "Se eu me tornar uma figura unificadora para"
+.text "Se eu puder ser esse símbolo para"
 .byte NewLine
 .text "a resistência na Trácia, e se eu puder"
 .byte NewLine
 .text "reconstruir o exército de Leonster para"
 .byte WaitForA
 .byte NewLine
-.text "enfrentar o Império."
+.text "enfrentar o Império..."
 .byte WaitForA
 .byte ScrollText
-.text "Seria realizar o sonho que eu e Finn"
+.text "Vai ser realizar o sonho que eu e Finn"
 .byte NewLine
 .text "compartilhamos esses anos todos."
 .byte WaitForA
 .byte ScrollText
-.text "Augusto, se você se juntar a mim como um"
+.text "Augusto, se você ser meu"
 .byte NewLine
 .text "estrategista e conselheiro,"
 .byte WaitForA
 .byte NewLine
-.text "não haverá dificuldade que eu"
+.text "não vai ter dificuldade que eu"
 .byte NewLine
 .text "não esteja disposto a enfrentar!"
 .byte WaitForA
@@ -361,16 +362,16 @@ dialogueChapter06Opening1
 
 .byte Right_Slot
 .byte ScrollText
-.text "Terão muitos soldados à nossa procura"
+.text "Tem muitos soldados à nossa procura"
 .byte NewLine
-.text "na cidade... tem alguma rota de fuga"
+.text "na cidade... sabe de alguma rota"
 .byte NewLine
-.text "segura?"
+.text "de escape segura?"
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "Sair pela porta leste da cidade seria"
+.text "Sair pela porta sudeste da cidade seria"
 .byte NewLine
 .text "o ideal, mas para isso, precisaremos"
 .byte NewLine
@@ -416,7 +417,7 @@ dialogueChapter06Opening2
 
 .byte Right_Slot
 .byte ScrollText
-.text "Isso deve servir, mas você vai"
+.text "Isso vai servir, mas você vai"
 .byte NewLine
 .text "ficar bem, Karin?"
 .byte WaitForA
@@ -431,9 +432,9 @@ dialogueChapter06Opening2
 .text "tocarem neles—talvez não gostam do cheiro."
 .byte WaitForA
 .byte ScrollText
-.text "Mas o Hermes vai deixar todos subirem nele,"
+.text "Mas o Hermes vai deixar todos subirem nele!"
 .byte NewLine
-.text "porém! Ele é forte o suficente pra me"
+.text "Ele é forte o suficente pra me"
 .byte NewLine
 .text "carregar e também pra levar mais um!"
 .byte WaitForA
@@ -588,19 +589,21 @@ dialogueChapter06GalzusSpawn
 
 .byte Left_Slot
 .byte ScrollText
-.text "Vê aqueles fugitivos na cidade?"
+.text "Temos uma fuga ocorrendo, e meus"
 .byte NewLine
-.text "Sua tenacidade está sendo demais para"
+.text "homens não estão sendo capazes de"
 .byte NewLine
-.text "os meus homens."
+.text "lidar com a situação."
 .byte WaitForA
 .byte ScrollText
-.text "Vá e mate-os, ganhe a sua paga!"
+.text "Vá e mate-os para mim, ganhe a sua paga!"
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "Pfft. Esses pirralhos nem merecem meu tempo."
+.text "Pfft. Esses pirralhos nem merecem"
+.byte NewLine
+.text "me enfrentar."
 .byte NewLine
 .text "Não irei demorar muito."
 .byte WaitForA
@@ -669,7 +672,7 @@ dialogueChapter06Ending
 .byte ScrollText
 .text "Seus cabeças ocas!"
 .byte NewLine
-.text "Claramente, precisa-se de alguémr"
+.text "Claramente, precisa-se de alguém"
 .byte NewLine
 .text "mais inteligente para esta tarefa..."
 .byte WaitForA
@@ -695,7 +698,7 @@ dialogueChapter06Ending
 .byte ScrollText
 .text "Espere! E quanto à garota morena... Mareeta,"
 .byte NewLine
-.text "se não me engano. ela está sumida desde"
+.text "se não me engano. Ela está sumida desde"
 .byte NewLine
 .text "que esse fiasco começou..."
 .byte WaitForA
@@ -798,26 +801,29 @@ dialogueChapter06Ending
 .byte ScrollText
 .text "Galzus vem da família de Ribaut."
 .byte NewLine
-.text "O rei de Ribaut traiu o rei de Isaach,"
+.text "O regente de Ribaut traiu"
 .byte NewLine
-.text "e por isso, a família de Ribaut foi executada."
+.text "o rei de Isaach, e por isso,"
+.byte WaitForA
+.byte NewLine
+.text "a família real de Ribaut foi executada."
 .byte WaitForA
 .byte ScrollText
-.text "O homem que o derrotou foi o avô de"
+.text "O homem que o derrotou e matou foi ninguém"
 .byte NewLine
-.text "Shannan, o Rei Manannan,"
+.text "menos que o avô de Shannan, o Rei Manannan."
 .byte WaitForA
 .byte ScrollText
 .text "Desde então, Galzus tem vivido na miséria."
 .byte NewLine
 .text "Acha que alguém como ele iria se associar"
 .byte NewLine
-.text "com Shannan e seus rebeldes?"
+.text "à Shannan e seus rebeldes?"
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "Tens razão..."
+.text "Tem razão, senhor..."
 .byte WaitForA
 
 .byte Right_Slot
@@ -949,7 +955,7 @@ dialogueChapter06HicksHouseMurphyAlive
 .byte ScrollText
 .text "Que tal eu ir c'ocês pra nós darmos"
 .byte NewLine
-.text "uma surra nele juntos?"
+.text "uma coça nele juntos?"
 .byte WaitForA
 
 .byte EndText
@@ -987,7 +993,7 @@ dialogueChapter06RapierHouseCliffAlive
 .word black_mustache_portrait
 .text "Foram ocês que salvaram meu netinho Cliff,"
 .byte NewLine
-.text "não é mesmo? Que bom que o bom Ced tem"
+.text "num é? Que bom que o bom senhor Ced tem"
 .byte NewLine
 .text "gente como ocês do lado dele."
 .byte WaitForA
@@ -996,7 +1002,7 @@ dialogueChapter06RapierHouseCliffAlive
 .byte NewLine
 .text "ninguém que fui eu que te dei!"
 .byte NewLine
-.text "Pode pegar, eu não vou usar mesmo."
+.text "Num se preocupem, eu não vou usar mesmo."
 .byte WaitForA
 
 .byte EndText
@@ -1126,7 +1132,7 @@ dialogueChapter06OdsScrollHouseLeenaAlive
 .word youngman2_portrait
 .text "Ah, eu tava esperando ocês!"
 .byte NewLine
-.text "Obrigado por ajudar minha irm!"
+.text "Obrigado por ajudar minha irmã!"
 .byte WaitForA
 .byte ScrollText
 .text "...Ah, pegue isso pra te ajudar! Eu achei"
