@@ -35,7 +35,7 @@ dialogueChapter07Title
 .byte $01
 
 dialogueChapter08Title
-.text "Capítulo 8: Monte Violdrake"
+.text "Capítulo 8: Monte Violeta"
 .byte $01
 
 dialogueChapter08xTitle

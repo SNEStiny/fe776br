@@ -225,16 +225,16 @@ dialogueColhoBattleQuote
 .byte EndText
 
 dialoguePerneBattleQuote
-.text "Vocês sabem quem estão"
+.text "Vocês sabem com quem estão"
 .byte NewLine
 .text "lidando? Eu não sou qualquer"
 .byte NewLine
 .text "bandido não, tá bom?"
 .byte WaitForA
 .byte ScrollText
-.text "Eu sou Perne, grande ladrão"
+.text "Eu sou Perne, ladrão de"
 .byte NewLine
-.text "de grandes posses!"
+.text "mãos cheias!"
 .byte WaitForA
 .byte EndText
 
@@ -344,7 +344,7 @@ dialogueMishaBattleQuote
 dialogueShannamBattleQuote
 .text "E-ei, espera!"
 .byte NewLine
-.text "Vamos conversar..."
+.text "Vamos convers-"
 .byte WaitForA
 .byte EndText
 

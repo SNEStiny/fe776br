@@ -336,6 +336,11 @@ dialogueWeismannDeathQuote
 .byte NewLine
 .text "se arrepender disso..."
 .byte WaitForA
+.byte NewLine
+.text "Meu senhor Raydrik não irá os"
+.byte NewLine
+.text "perdoar!"
+.byte WaitForA
 .byte EndText
 
 dialogueBucksDeathQuote

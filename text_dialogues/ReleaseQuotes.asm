@@ -13,16 +13,19 @@ dialogueChapter17BAmaldaReleaseQuote
 .byte EndText
 
 dialogueWeismannReleaseQuote
-.text "Droga... fui derrotado por um bando"
+.text "Droga... fui derrotado"
 .byte NewLine
-.text "de caipiras."
+.text "por um bando de caipiras."
 .byte NewLine
 .text "Eu jamais irei lhes perdoar!"
+.byte WaitForA
+.byte ScrollText
+.text "E meu senhor Raydrik saberá de tudo!"
 .byte WaitForA
 .byte EndText
 
 dialogueBucksReleaseQuote
-.text "Intão é isso? Não vai me entregar"
+.text "Intão é isso? Não vai me prender"
 .byte NewLine
 .text "nem me matar? Bem, sorte a minha!"
 .byte NewLine
@@ -33,7 +36,7 @@ dialogueBucksReleaseQuote
 .byte NewLine
 .text "Intão acho que eu vô virar pescador."
 .byte NewLine
-.text "Até mais, Guerreiros de Fiana."
+.text "Até mais, Legionários."
 .byte WaitForA
 .byte EndText
 

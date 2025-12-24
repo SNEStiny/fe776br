@@ -5,14 +5,14 @@ dialogueChapter05LeifRetreatQuote
 .text "Eyvel... eu vou voltar!"
 .byte WaitForA
 .byte ScrollText
-.text "Um dia... eu vou ser forte o suficiente"
+.text "Um dia... um dia eu vou ser forte o"
 .byte NewLine
-.text "pra volta"
+.text "suficiente pra te salvar! E vou botar"
 .byte NewLine
-.text "in all the heavens can stop me! So just... Just..."
+.text "a cidade abaixo se for preciso!"
 .byte WaitForA
 .byte ScrollText
-.text "......"
+.text "Então... Então......"
 .byte WaitForA
 .byte EndText
 
@@ -20,9 +20,9 @@ dialogueChapter05NannaRetreatQuote
 .byte Right_Slot
 .word LoadPortrait
 .word nanna_portrait
-.text "Eyvel... I'm sorry."
+.text "Eyvel... me perdoe."
 .byte NewLine
-.text "I'll always honor your sacrifice..."
+.text "Eu sempre vou honrar seu sacrifício..."
 .byte WaitForA
 .byte EndText
 
@@ -30,7 +30,9 @@ dialogueFinnRetreatQuote
 .byte Right_Slot
 .word LoadPortrait
 .word finn_portrait
-.text "As you wish, milord. I'll secure the way ahead!"
+.text "Como quiser, milorde."
+.byte NewLine
+.text "Eu irei verificar nossa rota de escape!"
 .byte WaitForA
 .byte EndText
 
@@ -38,7 +40,7 @@ dialogueOsianRetreatQuote
 .byte Right_Slot
 .word LoadPortrait
 .word osian_portrait
-.text "Haha! Nothing to it!"
+.text "Haha! Essa foi fácil!"
 .byte WaitForA
 .byte EndText
 
@@ -46,7 +48,7 @@ dialogueHalvanRetreatQuote
 .byte Right_Slot
 .word LoadPortrait
 .word halvan_portrait
-.text "Now comes the real battle..."
+.text "A batalha maior ainda está por vir..."
 .byte WaitForA
 .byte EndText
 
@@ -54,9 +56,9 @@ dialogueEyvelRetreatQuote
 .byte Right_Slot
 .word LoadPortrait
 .word eyvel_portrait
-.text "Mind your limits, Little Leif."
+.text "Tome cuidado, Leif."
 .byte NewLine
-.text "Don't do anything stupid!"
+.text "Não faça nada idiota!"
 .byte WaitForA
 .byte EndText
 
@@ -64,9 +66,9 @@ dialogueDagdarRetreatQuote
 .byte Right_Slot
 .word LoadPortrait
 .word dagdar_portrait
-.text "Prince Leif, there's nuthin' more you can do!"
+.text "Príncipe Leif, vem logo!"
 .byte NewLine
-.text "Hightail it outta there!"
+.text "Nós temo que correr!"
 .byte WaitForA
 .byte EndText
 
@@ -84,9 +86,9 @@ dialogueMartyRetreatQuote
 .byte Right_Slot
 .word LoadPortrait
 .word marty_portrait
-.text "*Pant, pant, wheeze*"
+.text "Ufa... ufa..."
 .byte NewLine
-.text "G-Good grief..."
+.text "F-finalmente..."
 .byte WaitForA
 .byte EndText
 
@@ -102,9 +104,9 @@ dialogueSafyRetreatQuote
 .byte Right_Slot
 .word LoadPortrait
 .word safie_portrait
-.text "Gods above, keep and protect Prince Leif."
+.text "Ó deuses, protejam o Príncipe."
 .byte NewLine
-.text "Please..."
+.text "Esta é minha súplica..."
 .byte WaitForA
 .byte EndText
 
@@ -112,9 +114,9 @@ dialogueLaraRetreatQuote
 .byte Right_Slot
 .word LoadPortrait
 .word lara_portrait
-.text "Sorry to duck out like this..."
+.text "Desculpa eu sair desse jeito..."
 .byte NewLine
-.text "Watch your back, OK?"
+.text "Se cuidem, tá bom?"
 .byte WaitForA
 .byte EndText
 
@@ -122,9 +124,9 @@ dialogueBrightonRetreatQuote
 .byte Right_Slot
 .word LoadPortrait
 .word brighton_portrait
-.text "Damned shameful of me,"
+.text "Que ato vergonhoso, fugir enquanto"
 .byte NewLine
-.text "goin' ahead of everybody like this..."
+.text "meus companheiros ainda lutam..."
 .byte WaitForA
 .byte EndText
 
@@ -132,9 +134,9 @@ dialogueFergusRetreatQuote
 .byte Right_Slot
 .word LoadPortrait
 .word fergus_portrait
-.text "Ah, how times have changed..."
+.text "Ah, os tempos mudaram..."
 .byte NewLine
-.text "I should be the last man out, not any of y'all."
+.text "Eu devia ser o último a sair..."
 .byte WaitForA
 .byte EndText
 
@@ -142,9 +144,9 @@ dialogueAsbelRetreatQuote
 .byte Right_Slot
 .word LoadPortrait
 .word asbel_portrait
-.text "Don't you dare leave me behind again,"
+.text "Não ouse me deixar pra trás de novo,"
 .byte NewLine
-.text "Lord Leif! I'll be waitin' for you just up ahead!"
+.text "Lorde Leif! Eu vou te esperar na saída!"
 .byte WaitForA
 .byte EndText
 
@@ -152,7 +154,7 @@ dialogueMachaRetreatQuote
 .byte Right_Slot
 .word LoadPortrait
 .word macha_portrait
-.text "I owe you one. I'll be just up ahead!"
+.text "Te devo uma. Vou tá logo à frente!"
 .byte WaitForA
 .byte EndText
 
@@ -160,7 +162,7 @@ dialogueHicksRetreatQuote
 .byte Right_Slot
 .word LoadPortrait
 .word hicks_portrait
-.text "Murphy, yer papa is doin' the best he can..."
+.text "Murphy, seu papai tá dando o máximo..."
 .byte WaitForA
 .byte EndText
 
@@ -168,7 +170,7 @@ dialogueNannaRetreatQuote
 .byte Right_Slot
 .word LoadPortrait
 .word nanna_portrait
-.text "Lord Leif... Stay safe...!"
+.text "Lorde Leif... Se cuide...!"
 .byte WaitForA
 .byte EndText
 
@@ -176,9 +178,9 @@ dialogueDalsinRetreatQuote
 .byte Right_Slot
 .word LoadPortrait
 .word dalsin_portrait
-.text "Diana, Jubel... I'll make it back home someday."
+.text "Diana, Jubel... eu vou voltar um dia."
 .byte NewLine
-.text "Wait fer me!"
+.text "Esperem por mim!"
 .byte WaitForA
 .byte EndText
 
@@ -202,9 +204,9 @@ dialogueLifisRetreatQuote
 .byte Right_Slot
 .word LoadPortrait
 .word lifis_portrait
-.text "Heh, heh, heh... Another clean get-away!"
+.text "Heh, heh, heh... mais uma fuga limpa!"
 .byte NewLine
-.text "My regards, gentlemen!"
+.text "Obrigado, senhoras e senhores!"
 .byte WaitForA
 .byte EndText
 
@@ -212,11 +214,11 @@ dialogueKarinRetreatQuote
 .byte Right_Slot
 .word LoadPortrait
 .word karin_portrait
-.text "*Pant... Pant*"
+.text "Ufa..."
 .byte NewLine
-.text "Looks like I made it outta there, somehow..."
+.text "Consegui sair daqui..."
 .byte NewLine
-.text "All right, I'll go ahead. Ladies first!"
+.text "Certo, eu vou na frente. Primeiro as damas!"
 .byte WaitForA
 .byte EndText
 
@@ -244,7 +246,7 @@ dialogueShivaRetreatQuote
 .byte Right_Slot
 .word LoadPortrait
 .word shiva_portrait
-.text "...Sorry..."
+.text "...Perdão..."
 .byte WaitForA
 .byte EndText
 

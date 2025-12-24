@@ -25,7 +25,7 @@ dialogueChapter08OsianMartyTalk
 .word marty_portrait
 .text "Fique calmo, Marty, ele não te viu..."
 .byte NewLine
-.text "Só esperar a hora certa de sumir daqui—"
+.text "Só esperar a hora certa de sumir da frent—"
 .byte WaitForA
 
 .byte Left_Slot
@@ -122,7 +122,7 @@ dialogueChapter08HalvanMartyTalk
 .word marty_portrait
 .text "Fique calmo, Marty, ele não te viu..."
 .byte NewLine
-.text "Só esperar a hora certa de sumir daqui—"
+.text "Só esperar a hora certa de sumir da frent—"
 .byte WaitForA
 
 .byte Left_Slot
@@ -179,8 +179,8 @@ dialogueChapter08HalvanMartyTalk
 .byte NewLine
 .text "contra o que o Dagdar e a Capitã dizem agora?"
 .byte WaitForA
-.byte ScrollText
-.text "Você virou um bandido comum agora?"
+.byte NewLine
+.text "Você virou um bandido comum?"
 .byte WaitForA
 
 .byte Right_Slot
@@ -192,11 +192,9 @@ dialogueChapter08HalvanMartyTalk
 
 .byte Left_Slot
 .byte ScrollText
-.text "Então você ainda é amigo dos Guerreiros,"
+.text "Então você ainda é amigo dos Legionários,"
 .byte NewLine
-.text "certo? Vai lutar junto a nós como"
-.byte NewLine
-.text "um de nossos amigos?"
+.text "certo? Vai lutar junto de nós?"
 .byte WaitForA
 
 .byte Right_Slot
@@ -312,9 +310,9 @@ dialogueChapter08MasterSealHouse
 .byte ScrollText
 .text "Leva essa medalha aqui."
 .byte NewLine
-.text 'Eu ganhei ela anos atrás por "Honra ao Mérito"'
+.text 'Eu ganhei ela anos atrás por "Honra ao Mérito".'
 .byte NewLine
-.text "num sei por que mérito ou que honra."
+.text "num sei por que mérito nem por que honra."
 .byte WaitForA
 
 .byte EndText
@@ -386,12 +384,9 @@ dialogueChapter08Opening
 .byte Right_Slot
 .text "Muito obrigado por nos ajudar, Callion."
 .byte NewLine
-.text "Você deveria voltar para o lado do"
+.text "Você deveria voltar para o General Aníbal,"
 .byte NewLine
-.text "General Aníbal,"
-.byte WaitForA
-.byte NewLine
-.text "nós conseguimos seguir sozinhos daqui."
+.text "nós podemos seguir sozinhos daqui."
 .byte WaitForA
 
 .byte Left_Slot
@@ -462,9 +457,9 @@ dialogueChapter08Opening
 .byte ScrollText
 .text "Se me permite, eu quero lutar sob"
 .byte NewLine
-.text "seu comando, em nome da restauração"
+.text "seu comando, e pela restauração"
 .byte NewLine
-.text "da sua casa ao seu lugar de direito."
+.text "de sua casa ao seu lugar de direito."
 .byte WaitForA
 
 .byte Right_Slot
@@ -490,7 +485,7 @@ dialogueChapter08Opening
 .text "onde quer que tu me queiras."
 .byte WaitForA
 .byte ScrollText
-.text "Se esse é o seu objetivo, eu sugiro que"
+.text "E se esse é o teu objetivo, eu sugiro que"
 .byte NewLine
 .text "no caminho passemos pela mansão do General."
 .byte WaitForA
@@ -530,7 +525,7 @@ dialogueChapter08Opening
 
 .byte Left_Slot
 .byte ScrollText
-.text "Você verá, milorde. Vamos seguir?"
+.text "Você verá, milorde. Vamos em frente?"
 .byte WaitForA
 
 .byte Right_Slot
@@ -622,7 +617,7 @@ dialogueChapter08Ending1A
 .byte Right_Slot
 .text "Entendi... espera, se você é o líder"
 .byte NewLine
-.text "desses bandidos, porquê tens"
+.text "desses bandidos, porquê tem"
 .byte NewLine
 .text "o brasão da Trácia no peito?"
 .byte WaitForA
@@ -1004,24 +999,22 @@ dialogueChapter08Ending1D
 
 dialogueChapter08WorldMap1
 
-.text "Após se reencontrar com o restante dos"
+.text "Após se reencontrar com o resto dos"
 .word LoadPortraitalt_1
 .long LoadPortraitalt_2
 .word $0101 ;leify-left
 .word $0817 ;y then x
 .byte NewLine
-.text "Guerreiros, Leif começa sua marcha para oeste."
+.text "Legionários, Leif começa sua marcha para oeste."
 .byte WaitForA
 .byte ScrollText
 .word LoadPortraitalt_1
 .long LoadPortraitalt_2
 .word $0316 ;callion
 .word $0810 ;y then x
-.text "Callion vai junto dele, servindo"
+.text "Callion vai junto dele, servindo como seu"
 .byte NewLine
-.text "como seu guia nas perigosas montanhas"
-.byte WaitForA
-.text "da Trácia."
+.text "guia nas perigosas montanhas da Trácia."
 .byte WaitForA
 .byte ScrollText
 
@@ -1030,7 +1023,7 @@ dialogueChapter08WorldMap1
 
 dialogueChapter08WorldMap2
 
-.text "Eles estavam próximos do sopé"
+.text "Eles haviam acabado de chegar no sopé"
 .byte NewLine
 .text "do Monte Violeta, "
 .byte WaitForA

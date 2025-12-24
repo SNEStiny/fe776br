@@ -2,33 +2,31 @@ dialogueArenaIntro
 
 	.text "Bem vindo a arena."
 	.byte NewLine
-	.text "Quer fazer uma aposta, mano?"
+	.text "Quer fazer uma aposta?"
 .byte EndTextNoPortraitFade
 
 dialogueArenaGoodLuck
 
 	.text "Boa sorte."
 	.byte NewLine
-	.text "Cuidado pra não morrer, tendeu?"
+	.text "Cuidado pra não morrer."
 .byte EndTextNoPortraitFade
 
 dialogueArenaSurrender
 
-	.text "A luta é até morrer, mas você"
+	.text "A luta é até morrer, a não ser"
 	.byte NewLine
-	.text "pode apertar [B] pra se render."
+	.text "que você aperte [B] para sair."
 .byte EndTextNoPortraitFade
 
 dialogueArenaLeave
 
 	.text "Se não quer pagar, não vai ficar."
-	.byte NewLine
-	.text "Rala."
 .byte EndTextNoPortraitFade
 
 dialogueArenaSurrendered
 
-	.text "Ficou com medo, é?"
+	.text "Desistiu, é?"
 	.byte NewLine
 	.text "Vou ficar com seu dinheiro."
 .byte EndTextNoPortraitFade
@@ -47,7 +45,7 @@ dialogueArenaNoMoney
 
 dialogueArenaDraw
 
-	.text "Sai daí! Deu empate."
+	.text "Ih. Deu empate."
 	.byte NewLine
 	.text "Aqui seu dinheiro de volta."
 .byte EndTextNoPortraitFade

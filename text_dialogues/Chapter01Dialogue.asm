@@ -32,7 +32,7 @@ dialogueChapter01Opening1
 	
 	.byte Left_Slot
 	.byte $09 ; font 9(always use font 9)	
-	.text "Conseguiu achar o garoto?"
+	.text "Conseguiu encontrar o garoto?"
 	.byte WaitForA	
 	
 	.byte Right_Slot
@@ -872,8 +872,7 @@ dialogueChapter01Ending
 	
 	.byte Left_Slot
 	.byte ScrollText
-	.text "Vossa Alteza, olha—" ;interrupt
-	.byte WaitForA
+	.text "Vossa Alteza, temos—" ;interrupt
 	
 	.byte Right_Slot
 	.byte ScrollText
@@ -896,7 +895,7 @@ dialogueChapter01Ending
 	.byte ScrollText
 	.text "...Eu entendo. Nós saíremos amanhã cedo, então."
 	.byte NewLine
-	.text "Príncipe, as coisas vão ser difíceis lá fora."
+	.text "Príncipe, as coisas vão ser difíceis."
 	.byte NewLine
 	.text "Descanse enquanto pode."
 	.byte WaitForA
@@ -1063,7 +1062,7 @@ dialogueChapter01WorldMap5
 	.byte WaitForA
 	.byte ScrollText
 	
-	.text "A vila possui uma pequena mílicia:"
+	.text "A vila possui uma pequena milícia:"
 	.byte NewLine
 	.text "A Legião de Fiana,"
 	.byte WaitForA
@@ -1193,7 +1192,7 @@ dialogueChapter01OsianTanyaTalk
 	.byte NewLine
 	.text "Então, dê meia-volta e se mande daqui."
 	.byte NewLine
-	.text "Você sabe muito bem que só vai atrapalhar."
+	.text "Não precisamos de crianças pra atrapalhar."
 	.byte WaitForA
 	
 	.byte Right_Slot
