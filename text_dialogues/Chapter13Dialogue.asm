@@ -656,7 +656,7 @@ dialogueChapter13Opening1
 .byte WaitForA
 
 .byte Right_Slot
-.text "Nós cercamos a cidade, Comandante Paulus."
+.text "Nós cercamos a cidade, Marechal Paulus."
 .byte NewLine
 .text "Eu peço permissão para atacar agora mesmo,"
 .byte NewLine
@@ -695,9 +695,9 @@ dialogueChapter13Opening2
 .byte ScrollText
 .text "Homens, vamos atacar agora mesmo!"
 .byte NewLine
-.text "Se eu lhes ver batendo em retirada,"
+.text "Se eu ver algum de vocês recuando,"
 .byte NewLine
-.text "eu lhes matarei eu mesmo!"
+.text "eu os matarei eu mesmo!"
 .byte WaitForA
 .text "Agora vão!"
 .byte WaitForA
@@ -1119,7 +1119,7 @@ dialogueChapter13WorldMap2
 .long LoadPortraitalt_2
 .word paulus_portrait
 .word $0B0A ;y then x
-.text "sob o comando do general Paulus."
+.text "sob o comando do Marechal Paulus."
 .byte WaitForA
 .byte ScrollText
 

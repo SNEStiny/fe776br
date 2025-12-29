@@ -634,7 +634,7 @@ dialogueChapter08Ending1A
 .byte NewLine
 .text "Quero apenas que responda minhas"
 .byte NewLine
-.text "perguntas, e então irei te soltar."
+.text "perguntas, e então vou te soltar."
 .byte WaitForA
 
 .byte Left_Slot
@@ -674,7 +674,7 @@ dialogueChapter08Ending1A
 .byte ScrollText
 .text "Você deve ter uma boa razão para estar aqui."
 .byte NewLine
-.text "Por mim, nem precisa me dizer quem você é."
+.text "Por mim, nem precisa dizer quem você é."
 .byte WaitForA
 .byte ScrollText
 .text "Só me diga o que sabe, eu não tenho razões"

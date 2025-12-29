@@ -7,93 +7,100 @@ dialogueChapter09LeifSelphinaTalk
 .byte Left_Slot
 .word LoadPortrait
 .word selphina_portrait
-.text "Prince Leif! Oh, it's been too long, milord!"
+.text "Príncipe Leif! Quanto tempo, milorde!"
 .byte NewLine
-.text "It's me, Selphina!"
+.text "Sou eu, Selphina!"
 .byte WaitForA
 
 .byte Right_Slot
-.text "Selphina, in the flesh! Can it really be you?"
+.text "Selphina?! É você mesmo?"
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "Prince Leif... This halfway feels like a dream..."
+.text "Sim, príncipe... faz tanto tempo..."
 .byte NewLine
-.text "When I last saw you, milord, you were but a"
+.text "A última vez que eu te vi,"
 .byte NewLine
-.text "child, a toddler who fell asleep at my knees..."
+.text "você ainda era um bebezinho..."
 .byte WaitForA
 .byte ScrollText
-.text "You've grown into such a fine young man..."
-.byte WaitForA
-
-.byte Right_Slot
-.byte ScrollText
-.text "Oh, Selphina, it's enough to make me cry..."
+.text "E você amava dormir no meu colo..."
 .byte NewLine
-.text "I had thought you and Duke Dorius"
-.byte NewLine
-.text "were killed trying to protect me."
-.byte WaitForA
-.byte ScrollText
-.text "I never imagined I'd be able to see you again."
-.byte WaitForA
-.byte ScrollText
-.text "I...never knew my mother or sister."
-.byte NewLine
-.text "The kinship of family was the one thing"
-.byte NewLine
-.text "my retainers were never able to fetch for me."
-.byte WaitForA
-.byte ScrollText
-.text "I saw Lachesis as a sort of mother, and you"
-.byte NewLine
-.text "as the older sister I was never able to meet."
-.byte WaitForA
-.byte ScrollText
-.text "Not that I ever showed you much gratitude"
-.byte NewLine
-.text "for it. I remember being quite the little terror..."
-.byte WaitForA
-
-.byte Left_Slot
-.byte ScrollText
-.text "Oh, it would be terribly improper to ever say"
-.byte NewLine
-.text "such a thing of the Prince of Leonster."
-.byte NewLine
-.text "I'll have to take you at your word, milord."
-.byte WaitForA
-.byte ScrollText
-.text "I...take it that Lady Lachesis"
-.byte NewLine
-.text "still has yet to return?"
+.text "Agora você é um homem..."
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "I'm afraid so..."
+.text "Ah, Selphina, não me faça chorar..."
 .byte NewLine
-.text "She...never made it back from her excursion"
+.text "Eu achava que você e seu pai tinham"
 .byte NewLine
-.text "to Isaach."
+.text "morrido pra me proteger."
+.byte WaitForA
+.byte NewLine
+.text "...Eu pensei que nunca mais ia lhes ver."
+.byte WaitForA
+.byte ScrollText
+.text "Eu... não conheci nem minha irmã nem minha mãe."
+.byte NewLine
+.text "E o sentimento de família foi uma das poucas"
+.byte NewLine
+.text "coisas que meus cavaleiros nunca me trouxeram."
+.byte WaitForA
+.byte ScrollText
+.text "Por isso, eu via Lachesis como minha mãe,"
+.byte NewLine
+.text "e você como minha irmã mais velha."
+.byte WaitForA
+.byte ScrollText
+.text "Mas creio que eu não fui um irmãozinho"
+.byte NewLine
+.text "muito bom. Lembro de ser um menininho"
+.byte NewLine
+.text "bem problemático..."
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "I see..."
+.text "Ah, príncipe, eu prefiro não dizer algo"
 .byte NewLine
-.text "Well, don't give up hope. It's still possible that"
+.text "assim de ti. Mas se você me diz isso, eu"
 .byte NewLine
-.text "she's alive somewhere—alive and happy."
+.text "irei aceitar, milorde."
 .byte WaitForA
 .byte ScrollText
-.text "I'm sure you'll find her someday, Prince Leif."
+.text "Eu... imagino que a Lachesis ainda"
 .byte NewLine
-.text "After all, the two of us were able to meet"
+.text "não voltou. Estou certa?"
+.byte WaitForA
+
+.byte Right_Slot
+.byte ScrollText
+.text "Infelizmente..."
 .byte NewLine
-.text "again, were we not?"
+.text "Ela... não voltou da viagem dela para Isaach."
+.byte WaitForA
+
+.byte Left_Slot
+.byte ScrollText
+.text "Entendi..."
+.byte NewLine
+.text "Não perca as esperanças, Príncipe Leif."
+.byte NewLine
+.text "Eu sei que um dia você irá encontrá-la."
+.byte WaitForA
+.byte ScrollText
+.text "Afinal, nós nos reencontramos, e você pensou"
+.byte NewLine
+.text "que isso nunca aconteceria!"
+.byte WaitForA
+
+.byte Right_Slot
+.byte ScrollText
+.text "Tem razão, Selphina..."
+.byte NewLine
+.text "Talvez um dia..."
 .byte WaitForA
 
 .byte EndText
@@ -104,71 +111,71 @@ dialogueChapter09SelphinaFinnTalk1
 .byte Right_Slot
 .word LoadPortrait
 .word selphina_portrait
-.text "Sir Finn! It's been too long."
+.text "Finn! Há quanto tempo não nos vemos!"
 .byte WaitForA
 
 .byte Left_Slot
 .word LoadPortrait
 .word finn_portrait
-.text "Hold! Are you friend or enemy?"
+.text "Parada! Quem é você?"
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "Have you forgotten me already, Sir Finn?"
+.text "Já se esqueceu de mim, senhor Finn?"
 .byte NewLine
-.text "It's Selphina!"
+.text "Sou eu, Selphina!"
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "Selphina? Duke Dorius' daughter?!"
+.text "Selphina? Filha do Duque Dórias?!"
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "The very same."
+.text "Eu mesma."
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "You don't say... When last we met,"
+.text "Me perdoe. Eu não consegui te reconhecer..."
 .byte NewLine
-.text "you still wore your hair in braids..."
+.text "Na última vez que eu te vi, você ainda"
+.byte NewLine
+.text "trançava os cabelos."
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "I can only hope I'm more of a proper woman"
+.text "Isso já faz dez anos... desde então,"
 .byte NewLine
-.text "now than I was a decade past."
+.text "muita coisa mudou. Sabia que eu e Glade"
 .byte NewLine
-.text "Glade and I have since been wed, you see."
+.text "nos casamos?"
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "Glade?! That old dog! How's he been?"
+.text "Glade?! Ele está vivo?! Como ele está?"
 .byte NewLine
-.text "Ah, we've much catching up to do—"
+.text "Temos muito o que conversar. Ele"
 .byte NewLine
-.text "you must take me to him at once!"
+.text "está com você?"
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "Your reunion will have to wait a little longer,"
+.text "Não, infelizmente. No momento ele está"
 .byte NewLine
-.text "I'm afraid. He's away in Tahra,"
-.byte NewLine
-.text "trying to aid the city's defenders."
+.text "em Tarrah, ajudando na defesa da cidade."
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "A pity..."
+.text "Uma pena..."
 .byte NewLine
-.text "Still, if duty calls, I suppose it can't be helped."
+.text "Bem, nada deve o impedir de cumprir seu dever."
 .byte WaitForA
 
 .byte EndText
@@ -178,75 +185,77 @@ dialogueChapter09SelphinaFinnTalk2
 
 .byte Right_Slot
 .byte ScrollText
-.text "Hmph. You can barely hide your excitement"
+.text "Hmph. Você está bastante interessado"
 .byte NewLine
-.text "for seeing my husband, but you can't scrape"
+.text "em ver meu marido de novo. Mas eu?"
 .byte NewLine
-.text "together two words for my benefit."
+.text "Acho que nem queria me ver, não é?"
 .byte WaitForA
 .byte ScrollText
-.text "I see you haven't changed much—"
+.text "Você continua o mesmo, Finn."
 .byte NewLine
-.text "no regard for the feelings of women."
-.byte WaitForA
-
-.byte Left_Slot
-.byte ScrollText
-.text "Th-That's uncalled for! I meant nothing by it..."
-.byte WaitForA
-
-.byte Right_Slot
-.byte ScrollText
-.text "Oh? But I still remember how you abandoned"
-.byte NewLine
-.text "Lady Lachesis—left her to go off on her own."
-.byte WaitForA
-.byte ScrollText
-.text "The sorrow was plain as day upon her face,"
-.byte NewLine
-.text "but you let her walk away."
+.text "Não dá nenhuma importância as mulheres."
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "I... I'm not sure what you mean..."
+.text "Como? Essa jamais foi a minha intenção..."
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "No, I know you understand, Sir Finn—"
+.text "É mesmo? Eu ainda lembro o que você fez com"
 .byte NewLine
-.text "but you pretend not to!"
+.text "a Lachesis. Você abandonou ela!"
+.byte WaitForA
+.byte ScrollText
+.text "Dava para ver a tristeza no rosto dela,"
+.byte NewLine
+.text "mas você deixou ela ir embora."
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "...Selphina, we've just met again"
-.byte NewLine
-.text "for the first time in a decade."
-.byte NewLine
-.text "There's no need to get into this now."
+.text "Eu não estou entendendo..."
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "Ah... I apologize. You've the right of it."
+.text "Finn, eu sei que você entende, mas"
 .byte NewLine
-.text "It was more than rude of me to ambush you"
-.byte NewLine
-.text "like that after such a long absence..."
+.text "parece que não quer aceitar!"
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "No, I... I understand. We can...talk about it"
+.text "...Selphina, essa é a primeira vez"
 .byte NewLine
-.text "later. For now, the battlefield calls."
+.text "que nos vemos em dez anos."
+.byte NewLine
+.text "Não é melhor deixarmos isso pra outra hora?"
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "...Of course, Sir Finn."
+.text "Ah... desculpa. Você tem razão."
+.byte NewLine
+.text "Foi muito rude da minha parte te colocar"
+.byte NewLine
+.text "contra a parede desse jeito..."
+.byte WaitForA
+
+.byte Left_Slot
+.byte ScrollText
+.text "Não, eu... eu te entendo. Podemos conversar"
+.byte NewLine
+.text "mais tarde."
+.byte NewLine
+.text "Por enquanto, vamos focar na batalha."
+.byte WaitForA
+
+.byte Right_Slot
+.byte ScrollText
+.text "...Certo, senhor Finn."
 .byte WaitForA
 
 .byte EndText
@@ -257,111 +266,107 @@ dialogueChapter09CallionSelphinaTalk
 .byte Right_Slot
 .word LoadPortrait
 .word callion_portrait
-.text "Lady Selphina, I made it back!"
+.text "Madame Selphina, estou de volta!"
 .byte WaitForA
 
 .byte Left_Slot
 .word LoadPortrait
 .word selphina_portrait
-.text "Oh, my dear Callion!"
+.text "Ah, Callion!"
 .byte NewLine
-.text "Thank you for all that you've done."
+.text "Muito obrigado por tudo que você fez."
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "Think nothing of it, milady."
+.text "Não precisa agradecer, madame."
 .byte NewLine
-.text "Would that I could've done more..."
+.text "Gostaria de poder fazer mais pela causa..."
 .byte WaitForA
 .byte ScrollText
-.text "Ah, I must double my training if I'm to"
+.text "Eu terei que redobrar meu treinamento se"
 .byte NewLine
-.text "become as strong a knight as Sir Glade"
+.text "quiser ser um cavaleiro à altura do"
 .byte NewLine
-.text "sometime in my natural life!"
+.text "senhor Glade!"
 .byte WaitForA
 .byte ScrollText
-.text "I want only to aid Prince Leif,"
+.text "Eu quero ser útil para o príncipe, mas no"
 .byte NewLine
-.text "but all I've learned in his service so far"
+.text "tempo em que estive com ele, eu percebi o"
 .byte NewLine
-.text "is just how powerless I truly am..."
+.text "quão despreparado estou..."
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "Don't let your impatience"
+.text "Tenha paciência, Callion, a pressa é"
 .byte NewLine
-.text "cloud your judgment."
-.byte NewLine
-.text "You won't be of any use to him dead."
+.text "inimiga da perfeição."
 .byte WaitForA
 .byte ScrollText
-.text "Hmm... The time to grant you your inheritance"
+.text "Hmm... talvez seja hora de você"
 .byte NewLine
-.text "may have come more quickly than I'd thought."
+.text "receber sua herança."
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "What is..."
+.text "O que é isso? Vejo que é uma bela espada,"
 .byte NewLine
-.text "Th-This is a fine blade, milady, but where—"
+.text "senhora, mas onde você a conseguiu?"
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "Your mother entrusted this to me."
+.text "Foi sua mãe quem me confiou."
 .byte NewLine
-.text "It's known as the Paragon Sword."
+.text "Esta é a Espada Prodígio."
 .byte WaitForA
 .byte ScrollText
-.text "She bade me give it to you"
+.text "Ela disse que eu deveria esperar até"
 .byte NewLine
-.text "when you had grown into a worthy knight."
+.text "você se tornar um cavaleiro digno dela."
+.byte NewLine
+.text "Para mim, esse já é o caso."
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "M-Mother?!"
+.text "Mamãe..."
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "She passed from this world far too young,"
+.text "A doença a levou cedo demais... você era"
 .byte NewLine
-.text "taken by illness."
-.byte NewLine
-.text "A tragedy if ever there was one, that..."
+.text "muito pequeno na época."
 .byte WaitForA
 .byte ScrollText
-.text "This very blade was a favorite"
+.text "Essa espada foi usada pelo seu pai, até o"
 .byte NewLine
-.text "of your father's, and he wielded it right up"
-.byte NewLine
-.text "until the day he died honorably in battle."
+.text "dia em que ele morreu em batalha."
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "So this was Father's own blade...one that"
+.text "Então essa foi a espada preferida dele..."
 .byte NewLine
-.text "he wielded in service of House Leonster...!"
+.text "Hora de colocá-la à serviço de Leonster"
+.byte NewLine
+.text "novamente." ;pequena liberdade em relação ao inglês pra tentar ser mais fluido
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "This is your birthright, Callion—use it"
+.text "É a sua herança, Callion."
 .byte NewLine
-.text "with great care."
+.text "Faça bom uso dela."
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "Y-Yes, I will!"
-.byte NewLine
-.text "Thank you, Lady Selphina!"
+.text "Eu irei, Madame!" ;detalhe que qualquer um pode usar essa espada
 .byte WaitForA
 
 .byte EndText
@@ -372,26 +377,24 @@ dialogueChapter09FjalarsScrollHouse
 .byte Right_Slot
 .word LoadPortrait
 .word moustache_portrait
-.text "You folks friends of the people in that villa?"
+.text "Ocês conhecem a gente daquela mansão?"
 .byte WaitForA
 .byte ScrollText
-.text "I went hunting once, an' found this in the"
+.text "Uma vez eu saí pra caçar, e achei esses"
 .byte NewLine
-.text "mountains behind my house. It must've been"
+.text "escritos perto de casa. Deve ser de um"
 .byte NewLine
-.text "written on fine vellum to have lasted this long."
+.text "tecido muito bom pra ter durado tanto."
 .byte WaitForA
 .byte ScrollText
-.text "From all the calligraphy, I figure it's gotta"
+.text "Pelo jeito que tá escrito, eu chuto que"
 .byte NewLine
-.text "have something to do with those well-to-do"
-.byte NewLine
-.text "folk that live up in the villa."
+.text "deve ser de algum dos caras de lá."
 .byte WaitForA
 .byte ScrollText
-.text "You look to be helping 'em already,"
+.text "Ocês parece que tão ajudando eles, então"
 .byte NewLine
-.text "so could you see that it gets back to them?"
+.text "podem levar isso de volta também?"
 .byte WaitForA
 
 .byte EndText
@@ -402,35 +405,35 @@ dialogueChapter09StaminaDrinkHouse
 .byte Right_Slot
 .word LoadPortrait
 .word oldman_portrait
-.text "What's the matter, chum? You're lookin'"
+.text "Ei, amigo, você tá parecendo bem cansado"
 .byte NewLine
-.text "a mite pale, there. Been workin' too hard?"
+.text "pra mim. Dando um duro danado, não é?"
 .byte WaitForA
 .byte ScrollText
-.text "Hey, I know the feeling. Got just the thing!"
+.text "Eu sei como é. Também sei como resolver!"
 .byte NewLine
-.text "It's called a Stamina Drink."
+.text "Toma esse energético aqui."
 .byte WaitForA
 .byte ScrollText
-.text "When you're just plain worn out,"
+.text "Quando você tiver cansado, só beber"
 .byte NewLine
-.text "gulp down that little beauty and you'll be ready"
+.text "essa belezinha aqui e ocê vai tá como"
 .byte NewLine
-.text "and rarin' to take the field again!"
+.text "novo!"
 .byte WaitForA
 .byte ScrollText
-.text "I'll give you this one as a free sample."
+.text "Esse aqui é por conta da casa."
 .byte NewLine
-.text "If you like it—an' I'm sure you will—see about"
+.text "Se você gostar, e eu sei que vai, só passar"
 .byte NewLine
-.text "buyin' more at the Vendor next door, eh?"
+.text "na lojinha aqui do lado pra comprar mais."
 .byte WaitForA
 .byte ScrollText
-.text "Oh, but best stock up while you can!"
+.text "Ah, deixa eu te avisar: além da linda"
 .byte NewLine
-.text "Tahra's the only other place that sells these."
+.text "loja ao meu lado, só vendem essas coisas" ;fazendo parecer que o mano tá fazendo um ad do energético
 .byte NewLine
-.text "It's worth every coin for soldiers like you!"
+.text "em Tarrah! É melhor guardar sua grana pra isso!"
 .byte WaitForA
 
 .byte EndText
@@ -445,140 +448,130 @@ dialogueChapter09Opening1
 .byte Left_Slot
 .word LoadPortrait
 .word travant_portrait
-.text "Is this the area, Merloch?"
+.text "É aqui mesmo, Merloch?"
 .byte WaitForA
 
 .byte Right_Slot
-.text "That's correct, sire."
+.text "Sim, milorde."
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "Hmph... So these bandits are harassing"
+.text "Hmph... então eles estão atacando Trácios?"
 .byte NewLine
-.text "Thracian citizens?"
+.text "Mesmo considerando que são meros bandidos,"
 .byte NewLine
-.text "Even for your average brigand, that's stupid."
+.text "é uma grande estupidez."
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
 .word LoadPortrait
 .word altena_portrait
-.text "Exceptionally stupid."
+.text "Concordo. Ainda assim, pai, você não"
 .byte NewLine
-.text "Even so, my lord father, you didn't need"
+.text "precisava se dar ao trabalho de vir"
 .byte NewLine
-.text "to come here in person for such a trifle."
+.text "aqui em pessoa. Não para algo tão trivial."
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "And what kind of king would I be if I wasn't"
+.text "E que tipo de rei eu seria se eu não fizesse"
 .byte NewLine
-.text "aware of all the matters that trouble my realm,"
+.text "isso, filha? É parte do meu dever me informar"
 .byte NewLine
-.text "trifling or no?"
+.text "dos problemas no reino, grandes ou pequenos."
 .byte WaitForA
 .byte ScrollText
-.text "Besides, it's been too long since you and I"
+.text "Ademais, essa é uma ótima oportunidade"
 .byte NewLine
-.text "had an outing of our own, Altena."
+.text "de termos um tempo juntos, Altena."
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "Indeed, Father."
+.text "É verdade, pai."
 .byte NewLine
-.text "I'm glad we were able to spend time together."
+.text "Fico feliz de podermos ter um passeio."
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "Shame that Arion couldn't join us."
+.text "É uma pena que Arion não esteja conosco."
 .byte NewLine
-.text "I wanted him to come along, but he didn't want"
+.text "Eu queria levar ele também, mas ele disse que"
 .byte NewLine
-.text "the capital to be left unattended in our absence."
+.text "precisava ficar de olho na capital durante"
+.byte WaitForA
+.byte NewLine
+.text "nossa ausência."
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "He's merely taking after your example, Father."
+.text "Ele está apenas seguindo seu exemplo, pai."
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "Mm. When I was his age, I'd already taken"
+.text "Ha! Na idade dele, eu já era rei."
 .byte NewLine
-.text "the throne. Arion needs to keep at it"
+.text "Ele vai ter que se esforçar mais"
 .byte NewLine
-.text "if he wants to outpace me."
+.text "quiser me impressionar."
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "He's doing his best—and so am I."
+.text "Ele está dando o seu melhor, e eu também."
 .byte NewLine
-.text "I want only to be a pillar of strength"
-.byte NewLine
-.text "for our family, my lord father."
+.text "Nós dois queremos te apoiar, pai."
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "Good. The two of you are Thracia's future."
+.text "Ótimo. Vocês são o futuro da Trácia."
+.byte NewLine
+.text "O norte tem a terra fértil, e o sul"
+.byte NewLine
+.text "tem os recursos minerais."
 .byte WaitForA
 .byte ScrollText
-.text "The North abounds with crops,"
+.text "Uma Trácia forte e independente precisa"
 .byte NewLine
-.text "and the mountains of the South hide much"
-.byte NewLine
-.text "in the way of resources and riches."
+.text "de ambos."
 .byte WaitForA
 .byte ScrollText
-.text "An independent Thracia will need both,"
+.text "Uma Trácia unida, como no tempo"
 .byte NewLine
-.text "not just one or the other."
+.text "de Dáinn e Njörun... esse"
+.byte NewLine
+.text "é o meu maior sonho, e eu vou realizá-lo."
 .byte WaitForA
 .byte ScrollText
-.text "To have a single, united Thracia..."
-.byte NewLine
-.text "My fondest wish is to return this land"
-.byte NewLine
-.text "to what it was in the days of Dáinn and Njörun."
-.byte WaitForA
-.byte ScrollText
-.text "...Even if it damns me"
-.byte NewLine
-.text "to the deepest pit of Hell."
+.text "...Não importa para onde ele me levar."
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "...Father?"
+.text "...Pai, você está bem?"
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
 .text "Altena..."
 .byte WaitForA
-
-.byte Right_Slot
-.byte ScrollText
-.text "Yes?"
-.byte WaitForA
-
-.byte Left_Slot
-.byte ScrollText
-.text "...The wind's changing on us."
+.text " o vento está mudando."
 .byte NewLine
-.text "Let's head back and leave this one to Merloch."
+.text "Vamos embora, deixaremos esta situação"
+.byte NewLine
+.text "nas mãos do Merloch."
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "As you wish, my lord father."
+.text "Tudo bem, pai."
 .byte WaitForA
 .byte ScrollText
 .word LoadPortrait
@@ -586,32 +579,30 @@ dialogueChapter09Opening1
 
 .byte Left_Slot
 .byte ScrollText
-.text "You good to handle this on your own,"
+.text "Consegue lidar com isso sozinho,"
 .byte NewLine
 .text "Merloch?"
 .byte WaitForA
 
 .byte Right_Slot
-.text "Hah! You insult me by asking, sire!"
+.text "Hah! Sem nenhum problema, senhor!"
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "All right, then I'm entrusting you with the rest"
+.text "Tudo bem, então eu lhe darei o comando dos"
 .byte NewLine
-.text "of our soldiers. I won't accept any excuses—"
+.text "soldados. E não tolerarei um fracasso—"
 .byte NewLine
-.text "wipe out every last bandit."
+.text "elimine todos os bandidos."
 .byte WaitForA
 .byte ScrollText
-.text "Show them what it's like"
-.byte NewLine
-.text "to have made an enemy of Thracia!"
+.text "Mostre-os a fúria da nossa nação!"
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "Leave everything to me, milord!"
+.text "Entendido, Vossa Majestade!"
 .byte WaitForA
 
 .byte EndText
@@ -626,46 +617,45 @@ dialogueChapter09Opening2
 .byte Left_Slot
 .word LoadPortrait
 .word selphina_portrait
-.text "My lord father! It's the Thracian army!"
+.text "Pai! Tem uma divisão de trácios ao sul!"
 .byte NewLine
-.text "T-They're flooding in from the south!"
+.text "Parece que eles irão nos atacar!"
 .byte WaitForA
 
 .byte Right_Slot
-.text "So Travant has finally noticed us..."
+.text "Então Travant finalmente nos percebeu..."
 .byte NewLine
-.text "A pox on it all! With Glade in Tahra, there's"
+.text "Maldito seja! Com Glade em Tarrah, não"
 .byte NewLine
-.text "no one here with any experience in battle..."
+.text "tem nenhum soldado experiente aqui..."
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "Then leave it to me. I'll draw their attention"
+.text "Então deixe comigo. Eu vou atrasá-los,"
 .byte NewLine
-.text "and buy everyone time to escape."
+.text "e enquanto isso você organiza nossa fuga."
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "Wait! General Hannibal sent word ahead."
-.byte WaitForA
-.byte ScrollText
-.text "According to him, Prince Leif and a coalition"
+.text "Espere! O General Aníbal nos enviou uma"
 .byte NewLine
-.text "of warriors from Fiana and Munster"
+.text "mensagem. Ele diz que o Príncipe Leif"
 .byte NewLine
-.text "are already en route."
+.text "está vindo para cá com um grupo de guerreiros"
 .byte WaitForA
-.byte ScrollText
-.text "We have to hold out until they get here..."
+.byte NewLine
+.text "de Fiana e de Munster. Nós só temos que"
+.byte NewLine
+.text "nos defender até eles chegarem..."
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "Understood. If you've no objections,"
+.text "Tudo bem, pai. Nesse caso, eu vou"
 .byte NewLine
-.text "I'll establish a defensive perimeter."
+.text "formar um perímetro defensivo."
 .byte WaitForA
 .byte ScrollText
 
@@ -694,7 +684,7 @@ dialogueChapter09Opening2
 .word robert_portrait
 
 .byte Left_Slot
-.text " Robert!"
+.text " Roberto!  "
 
 .byte Right_Slot
 .byte ScrollText
@@ -703,7 +693,7 @@ dialogueChapter09Opening2
 
 .byte Left_Slot
 .byte NewLine
-.text "We're moving out! Follow me!"
+.text "Venham comigo!"
 .byte WaitForA
 
 .byte EndText
@@ -718,59 +708,61 @@ dialogueChapter09Opening3
 .byte Left_Slot
 .word LoadPortrait
 .word augustus_portrait
-.text "The villa is just ahead, Prince Leif."
+.text "A mansão está logo adiante, Príncipe Leif."
 .byte WaitForA
 
 .byte Right_Slot
-.text "Is something amiss? Those soldiers"
+.text "Tem algo estranho acontecendo... aqueles"
 .byte NewLine
-.text "moving about, are they Duke Dorius' troops?"
+.text "soldados ali, eles são os do duque Dórias?"
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
 .text "Hm?"
 .byte NewLine
-.text "Blast...! Take a closer look at their armor,"
+.text "Droga...! Veja a armadura que vestem,"
 .byte NewLine
-.text "Prince Leif—that's the Thracian army!"
+.text "Príncipe Leif! São soldados Trácios!"
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "Wh-What?! Wasn't this villa supposed to be"
+.text "O-o quê?! Mas essa mansão não era pra estar"
 .byte NewLine
-.text "under the protection of General Hannibal?"
+.text "sob a proteção do General Aníbal?"
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "Perhaps Thracia finally learned"
+.text "Talvez a Trácia tenha os descoberto."
 .byte NewLine
-.text "of their presence, or perhaps"
+.text "E há a possibilidade de ter sido o"
 .byte NewLine
-.text "General Hannibal tipped them off..."
+.text "General Aníbal quem os informou..."
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "I'll not hear it, August! General Hannibal"
+.text "Impossível, Augusto! O General é um homem"
 .byte NewLine
-.text "is a man of honor—he'd not do such a thing!"
+.text "de honra! Ele jamais faria algo assim!"
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "...Be that as it may, we must move"
+.text "...Seja como for, temos que ir em socorro"
 .byte NewLine
-.text "to rescue them immediately!"
+.text "deles imediatamente! Se os nobres de"
+.byte NewLine
+.text "Leonster forem capturados,"
 .byte WaitForA
 .byte ScrollText
-.text "If the nobles of Leonster fall with that villa,"
+.text "Nós não teremos o apoio deles, e perderemos o"
 .byte NewLine
-.text "we'll lose the people's support and any hope"
+.text "apoio do povo! E por consequência, quaisquer"
 .byte NewLine
-.text "of liberating Thracia or rebuilding Leonster!"
+.text "chances que teríamos de libertar a Trácia!"
 .byte WaitForA
 
 .byte EndText
@@ -785,151 +777,145 @@ dialogueChapter09Ending1
 .byte Left_Slot
 .word LoadPortrait
 .word leif_portrait
-.text "Dorius!"
+.text "Dórias!"
 .byte WaitForA
 
 .byte Right_Slot
-.text "Prince Leif...!"
+.text "Príncipe Leif...!"
 .byte NewLine
-.text "To be able to see you, safe and healthy,"
+.text "É uma grande alegria para todos nós,"
 .byte NewLine
-.text "after all these years..."
+.text "te ver são e salvo depois de tantos anos..."
 .byte WaitForA
 .byte ScrollText
-.text "You've...grown into quite the splendid"
+.text "Você cresceu... já é um homem,"
 .byte NewLine
-.text "young man."
+.text "não mais aquele menino de antes."
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "Whatever I've accomplished, I owe to you"
+.text "Bem, tudo que eu fiz, foi graças à você"
 .byte NewLine
-.text "and Finn. Without your sacrifices,"
+.text "e o Finn. Sem seus sacrifícios, eu jamais"
 .byte NewLine
-.text "I never could've come as far as I have..."
+.text "teria chegado tão longe..."
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "...Oh, this is most unbecoming!"
+.text "Senhor... ah! Me perdoe..."
 .byte NewLine
-.text "Confound it... I... I, ah... I suppose"
+.text "Um homem como eu, na minha idade,"
 .byte NewLine
-.text "I've become easier to move to tears in my age."
+.text "chorando..."
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "...Duke Dorius, I think you've earned—"
+.text "...Duque Dórias, não se preocupe..."
 .byte WaitForA
 .byte ScrollText
-.text "Ah! Y-Your arm! Don't tell me you..."
+.text "Ah! S-seu braço! Não me diga que..."
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "Oh, this? Bah! It's but a trifle."
+.text "Ah, isso? Bah! Não é nada."
 .byte NewLine
-.text "I...grew careless during the battle for Ulster."
+.text "Eu... cometi um erro na batalha de Úlster."
 .byte NewLine
-.text "The disgrace is mine alone to bear."
+.text "Essa desgraça foi minha culpa."
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "At Ulster? Then...it was for the sake"
+.text "Em Úlster? Então você estava"
 .byte NewLine
-.text "of ensuring my escape..."
+.text "tentando me defender..."
 .byte WaitForA
 .byte ScrollText
-.text "Dammit!"
+.text "Eu sinto muito, Dórias... foi por minha"
 .byte NewLine
-.text "Is that what it always comes down to?!"
+.text "causa que você perdeu seu braço."
 .byte WaitForA
 .byte ScrollText
-.text "How many more people have to sacrifice"
+.text "Tantas pessoas já se sacrificaram pra"
 .byte NewLine
-.text "themselves just to save me? How many?!"
+.text "me proteger. Espero que um dia eu possa"
 .byte NewLine
-.text "Even you, Dorius... All for me..."
+.text "fazer valer estes sacrifícios."
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "Hah! Don't let this, of all things, weigh heavily"
-.byte NewLine
-.text "upon your heart, Prince Leif."
+.text "Hah! Não deixe isso te abater, Príncipe Leif."
 .byte WaitForA
 .byte ScrollText
-.text "Even supposing I wasn't injured,"
+.text "Mesmo inteiro, imagino que um velho"
 .byte NewLine
-.text "an old dotard like me would hardly be"
-.byte NewLine
-.text "of any use to you now."
+.text "como eu não seria muito útil para ti."
 .byte WaitForA
 .byte ScrollText
-.text "Let us not allow our minds to linger"
+.text "Vamos deixar o passado passar, temos"
 .byte NewLine
-.text "on past wounds—we've much work to do yet."
+.text "muito o que discutir sobre o futuro."
 .byte WaitForA
 .byte ScrollText
-.text "I understand you wish to aid Tahra."
+.text "Me disseram que você quer ir para Tarrah."
 .byte NewLine
-.text "I mean to do the same, but we've precious"
+.text "Eu também quero ir em socorro deles, por"
 .byte NewLine
-.text "little time to act."
+.text "isso eu enviei Glade para lá."
 .byte WaitForA
 .byte ScrollText
-.text "I've sent Glade ahead to the city."
+.text "Mas devemos ser rápidos."
 .byte WaitForA
 .byte NewLine
-.text "We've gotten word back from him, and"
+.text "A última mensagem dele revela que o Império"
 .byte NewLine
-.text "he reports that the Empire means to mount an"
+.text "está se preparando para um grande ataque"
 .byte NewLine
-.text "all-out assault against Tahra perilously soon."
-.byte WaitForA
-.byte ScrollText
-.text "With you and your forces here,"
-.byte NewLine
-.text "every brave soul in Thracia now stands"
-.byte NewLine
-.text "assembled beneath the banner of Njörun."
+.text "contra a cidade."
 .byte WaitForA
 .byte ScrollText
-.text "The reborn kingdom of Leonster must be"
+.text "Agora que juntamos nossas forças, chegou"
 .byte NewLine
-.text "unleashed upon the front lines—starting with"
+.text "a hora de todos nós lutarmos unidos sob a"
 .byte NewLine
-.text "the Thracian soldiers amassed outside!"
+.text "bandeira de Njörun."
+.byte WaitForA
+.byte ScrollText
+.text "O novo reino de Leonster irá derrotar todos"
+.byte NewLine
+.text "os seus inimigos! Começando por aqueles"
+.byte NewLine
+.text "trácios lá fora!"
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
 .word LoadPortrait
 .word augustus_portrait
-.text "Regarding that... The Thracian troops"
+.text "Quanto a isso... Vejo que o exército Trácio"
 .byte NewLine
-.text "seem to have ceased attacking. Most curious..."
+.text "cessou seu ataque. Curioso..."
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
 .word LoadPortrait
 .word leif_portrait2
-.text "Outright suspicious, even."
+.text "O que será que estão tramando?"
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
 .word LoadPortrait
 .word dorias_portrait
-.text "I'll start coming up with a plan."
+.text "É melhor eu ver o que está acontecendo."
 .byte NewLine
-.text "Give me a moment to get a better look"
-.byte NewLine
-.text "at this strange state of affairs, Prince Leif."
+.text "Espere um momento, Príncipe Leif."
 .byte WaitForA
 
 .byte EndText
@@ -942,21 +928,21 @@ dialogueChapter09Ending2
 .byte Right_Slot
 .word LoadPortrait
 .word dorias_portrait
-.text "Hmm... Prince Leif's man was right."
+.text "Hmm... o companheiro do Príncipe acertou."
 .byte NewLine
-.text "They have indeed called off their attack..."
+.text "Eles de fato pararam o ataque..."
 .byte NewLine
-.text "But why?"
+.text "A questão maior é o porquê disso..."
 .byte WaitForA
 .byte ScrollText
-.text "...Who in blazes is that?"
+.text "...Quem é aquela?"
 .byte WaitForA
 .byte ScrollText
-.text "That Dracoknight—a woman, by the look of it—"
+.text "Uma dragão... parece que ela está"
 .byte NewLine
-.text "what's she saying to the Thracian troops?"
+.text "se dirigindo às tropas no campo."
 .byte NewLine
-.text "Some kind of declaration?"
+.text "O que será que ela está dizendo?"
 .byte WaitForA
 
 .byte EndText
@@ -969,21 +955,21 @@ dialogueChapter09Ending3
 .byte Right_Slot
 .word LoadPortrait
 .word altena_portrait
-.text "All soldiers of Thracia, heed me!"
+.text "Atenção, soldados da Trácia,"
 .byte NewLine
-.text "This is your princess, Altena!"
+.text "sua princesa vos fala!"
 .byte NewLine
-.text "I bring word from General Hannibal himself!"
+.text "Eu trago uma mensagem do General Aníbal!"
 .byte WaitForA
 .byte ScrollText
-.text "The men in that villa are not bandits—they're a"
+.text "Os homens naquela mansão não são bandidos;"
 .byte NewLine
-.text "mercenary unit the General has stationed here"
+.text "pelo contrário, estes homens são mercenários"
 .byte NewLine
-.text "to PROTECT this area from bandits!"
+.text "contratados pelo general para eliminá-los!"
 .byte WaitForA
 .byte ScrollText
-.text "Sheathe your swords! Withdraw at once!"
+.text "Façam sua retirada o quanto antes!"
 .byte WaitForA
 
 .byte EndText
@@ -994,31 +980,31 @@ dialogueChapter09PlayerLoss
 .byte Right_Slot
 .word LoadPortrait
 .word augustus_portrait
-.text "Prince Leif, I've dire news!"
+.text "Príncipe Leif, más notícias!"
 .byte NewLine
-.text "I... I regret to report that the villa... has fallen."
+.text "A mansão foi capturada..."
 .byte WaitForA
 
 .byte Left_Slot
 .word LoadPortrait
 .word leif_portrait2
-.text "Come again?!"
+.text "Como?!"
 .byte NewLine
-.text "Th-Then... Duke Dorius..."
+.text "Então... perdemos o Duque..."
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "All that remained of Leonster's nobility"
+.text "Sim, e junto com ele, também perdemos"
 .byte NewLine
-.text "had taken refuge here... Now, they have joined"
+.text "aqueles que restaram dentre os nobres"
 .byte NewLine
-.text "their kingdom in oblivion."
+.text "de Leonster."
 .byte WaitForA
 .byte ScrollText
-.text "Without them, I'm afraid there is..."
+.text "Sem eles, eu temo que não há mais"
 .byte NewLine
-.text "no longer any hope of reconstituting Leonster..."
+.text "chance alguma de recuperarmos Leonster..."
 .byte WaitForA
 
 .byte EndText
@@ -1026,17 +1012,16 @@ dialogueChapter09PlayerLoss
 
 dialogueChapter09WorldMap1
 
-.text "Putting down the bandit uprising at Mount"
+.text "Após derrotar os bandidos"
 .byte NewLine
-.text "Violdrake, "
+.text "que estavam no Monte Violeta,"
 .byte WaitForA
 .word LoadPortraitalt_1
 .long LoadPortraitalt_2
 .word $0101 ;leify-left
 .word $0411 ;y then x
-.text "Leif's army now sought to join"
 .byte NewLine
-.text "forces with the remnants of Leonster's nobility."
+.text "Leif retoma sua marcha pelas montanhas."
 .byte WaitForA
 .byte ScrollText
 
@@ -1045,17 +1030,17 @@ dialogueChapter09WorldMap1
 
 dialogueChapter09WorldMap2
 
-.text "Leif set a course for General Hannibal's"
+.text "Ele precisava chegar à mansão"
 .byte NewLine
-.text "mountain villa, "
+.text "de veraneio do general Aníbal,"
 .byte WaitForA
 .word LoadPortraitalt_1
 .long LoadPortraitalt_2
 .word $003C ;dorius
 .word $0306 ;y then x
-.text "where the deposed nobles"
+.text "onde os remanescentes de Leonster"
 .byte NewLine
-.text "now lived in hiding..."
+.text "estavam escondidos..."
 .byte WaitForA
 
 .byte EndText
